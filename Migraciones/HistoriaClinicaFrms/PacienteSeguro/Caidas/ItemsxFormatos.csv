@@ -1,0 +1,21 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+CAIDAS;2;FECHA DEL EVENTO;PACIENTE SEGURO;1;C;0;0;10;Fecha;80;0;;;1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;3;0;;;
+CAIDAS;4;ESTADO MENTAL PREVIO;PACIENTE SEGURO;1;L;0;0;0;Lista Opciones;0;0;;";No presenta; Alerta;Estuporoso;Exaltado;Inmovilizado;Sedado;Somnoliento;Otro";1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;5;0;;;
+CAIDAS;5;LUGAR DE OCURRENCIA;PACIENTE SEGURO;1;L;0;0;0;Lista Opciones;0;0;;";Area común;Baño;Cama;Camilla;Escaleras;Habitación;Silla";1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;6;0;;;
+CAIDAS;13;<B>Notificar a<b> ;PACIENTE SEGURO;1;L;0;0;5;Cuadro de Chequeo;0;0;;"Jefe de enfermería;Medico";1;;1;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AN;16;0;;;
+CAIDAS;12;LESIONES Y HALLAZGOS;PACIENTE SEGURO;1;C;0;0;400;Area de Texto;400;100;;;1;;1;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;15;0;;;
+CAIDAS;11;DESCRIPCIÓN;PACIENTE SEGURO;1;C;0;0;400;Area de Texto;400;100;;;1;;1;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;13;0;;;
+CAIDAS;9;TIPO DE CAÍDA;PACIENTE SEGURO;1;L;0;0;0;Lista Opciones;0;0;;";Desde la bipedestacion;Más de dos metros;Más de tres metros;Otra";1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;10;0;;;
+CAIDAS;8;ESTADO DEL PISO;PACIENTE SEGURO;1;L;0;0;0;Lista Opciones;0;0;;";No aplica;Humedo;Seco";1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;9;0;;;
+CAIDAS;6;TIPO DE CAMA;PACIENTE SEGURO;1;L;0;0;0;Lista Opciones;0;0;;";No aplica;Alta;Baja";1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;7;0;;;
+CAIDAS;10;PRESENCIA DEL ACOMPAÑANTE;PACIENTE SEGURO;1;L;0;0;0;Lista Opciones;0;0;;";Con acompañante;Sin acompañante";1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;11;0;;;
+CAIDAS;18;"<b> DESCRIPCI&Oacute;N </b>";PACIENTE SEGURO;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;12;;;;
+CAIDAS;3;HORA DEL EVENTO;PACIENTE SEGURO;1;C;0;0;5;Cuadro de Texto;50;0;;;1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;4;0;;;
+CAIDAS;7;ESTADO DE LAS BARANDAS;PACIENTE SEGURO;1;L;0;0;0;Lista Opciones;0;0;;";No aplica;Abajo;Arriba";1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;8;0;;;
+CAIDAS;17;PACIENTE SEGURO;PACIENTE SEGURO;1;C;0;0;5;Cuadro de Chequeo;0;0;;;0;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;19;0;;;
+CAIDAS;19;<b> LESIONES Y HALLAZGOS </b>;PACIENTE SEGURO;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;14;;;;
+CAIDAS;14;<b> NOTIFICAR A </b>;PACIENTE SEGURO;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;16;;;;
+CAIDAS;15;JEFE DE ENFERMERIA;PACIENTE SEGURO;1;C;0;0;5;Cuadro de Chequeo;0;0;;;0;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;17;0;;;
+CAIDAS;20;<h3>FORMATO DE CAÍDAS </h3>;PACIENTE SEGURO;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;1;;;;
+CAIDAS;16;MEDICO GENERAL;PACIENTE SEGURO;1;C;0;0;5;Cuadro de Chequeo;0;0;;;0;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;18;0;;;
+CAIDAS;1;SERVICIO;PACIENTE SEGURO;1;L;0;0;0;Lista Opciones;0;0;;";ADICCIONES;CRONICAS MUJERES;CRONICOS HOMBRES;INIMPUTABLES;INTERMEDIOS HOMBRES;INTERMEDIOS MUJERES;JUAN CIUDAD;LARGA ESTANCIA;OBSERVACION;PISO HOMBRES;UCA;UCA JUAN CIUDAD;UCI-P";1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;01/01/1900;;;AC;2;0;;;

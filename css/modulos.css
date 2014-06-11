@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/02/2014, 01:06:49 PM
+    Author     : Francisco Maya Sarasty
+*/
+
+body {
+    font-family: verdana, tahoma, arial, sans serif;
+    font-size: 13px;
+}
+
+a{
+    color:#333333;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+a:hover{
+    //color:#0098d8;
+    color: #0098d8;
+    text-decoration: underline;
+}
+
+.botones {
+    color: #333333;
+    margin: 0;
+    padding-left: 18px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.botonesHover {
+    text-decoration: underline;
+    color: #0098d8;
+}
+
+// Para manejar el menu de la izquierda
+
+#cssmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: auto;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  background: #353535;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #353535;
+  zoom: 1;
+}
+#cssmenu li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 10px;
+}

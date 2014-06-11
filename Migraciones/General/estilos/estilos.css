@@ -1,0 +1,39 @@
+
+	.mensajeEjecucion {
+	
+		font-size: 14px;
+
+	}
+	
+	.subtitulo1 {
+		color: #0068D4;
+		font-weight: bold;
+	
+	
+	}
+	
+	.nota1 {
+		color: #FF0000;
+		font-weight: bold;
+	
+	}
+	
+	.link1 {
+		text-decoration:none;
+		color: #0068D4	;
+	}
+	
+	
+	.error1 {
+		font-weight: bold;
+		color: #FF0000;
+	}
+	
+	.mensajeFinalizacion {
+		color:#FF9900;
+		font-size:18px;
+		font-weight:bold;
+		
+	
+	
+	}

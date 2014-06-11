@@ -1,0 +1,1 @@
+Verificar funcion upper case en Postgresql para actualizar la tabla Central.reportes

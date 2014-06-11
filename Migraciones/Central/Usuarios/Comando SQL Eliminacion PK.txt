@@ -1,0 +1,3 @@
+ALTER TABLE central.usuarios DROP CONSTRAINT "UnkCentralUsuario" CASCADE;
+ALTER TABLE central.usuarios DROP CONSTRAINT "PkCentUsuarios" CASCADE;
+ALTER TABLE central.usuarios ADD PRIMARY KEY (usuario, nombre);

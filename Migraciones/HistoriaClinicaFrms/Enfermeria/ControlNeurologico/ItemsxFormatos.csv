@@ -1,0 +1,24 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+CONTROL NEUROLOGICO;1;<b> SIGNOS VITALES </b>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;;;;
+CONTROL NEUROLOGICO;2;HORA;ENFERMERIA;1;C;0;0;5;Cuadro de Texto;50;0;;;1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AN;3;0;;;
+CONTROL NEUROLOGICO;3;TENSIÓN ARTERIAL;ENFERMERIA;1;C;0;0;7;Cuadro de Texto;50;0;;;1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;3;0;;;
+CONTROL NEUROLOGICO;4;PULSO;ENFERMERIA;1;C;0;0;3;Cuadro de Texto;50;0;;;1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;4;0;;;
+CONTROL NEUROLOGICO;5;TEMPERATURA;ENFERMERIA;1;C;0;0;5;Cuadro de Texto;50;0;;;1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;5;0;;;
+CONTROL NEUROLOGICO;6;"<b> RESPIRACI&Oacute;N </b>";ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;6;;;;
+CONTROL NEUROLOGICO;7;TIPO;ENFERMERIA;1;C;0;0;0;Lista Opciones;0;0;;";Regular;Irregular";1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;7;0;;;
+CONTROL NEUROLOGICO;8;FRECUENCIA RESPIRATORIA;ENFERMERIA;1;C;0;0;10;Cuadro de Texto;50;0;;;1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;8;0;;;
+CONTROL NEUROLOGICO;9;<b> PUPILAS </b>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;9;;;;
+CONTROL NEUROLOGICO;10;OJO DERECHO;ENFERMERIA;1;C;0;0;0;Lista Opciones;0;0;;";Midriasis;Miosis;Isocoricas";1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;10;0;;;
+CONTROL NEUROLOGICO;11;OJO IZQUIERDO;ENFERMERIA;1;C;0;0;0;Lista Opciones;0;0;;";Midriasis;Miosis;Isocoricas";1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;11;0;;;
+CONTROL NEUROLOGICO;12;<b> ESTADO DE CONCIENCIA </b>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;12;;;;
+CONTROL NEUROLOGICO;13;ESTADO DE CONCIENCIA;ENFERMERIA;1;C;0;0;0;Lista Opciones;0;0;;";Normal;Obnubilación;Somnolencia;Estupor;Coma superficial;Coma profundo";1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;13;0;;;
+CONTROL NEUROLOGICO;14;<b> FUERZA MUSCULAR </b>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;14;;;;
+CONTROL NEUROLOGICO;15;MIEMBROS SUPERIORES;ENFERMERIA;1;C;0;0;0;Lista Opciones;0;0;;";Presente;Ausente";1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;15;0;;;
+CONTROL NEUROLOGICO;16;MIEMBROS INFERIORES;ENFERMERIA;1;C;0;0;0;Lista Opciones;0;0;;";Presente;Ausente";1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;16;0;;;
+CONTROL NEUROLOGICO;17;<b> CONVULSIONES </b>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;17;;;;
+CONTROL NEUROLOGICO;18;CONVULSIONES;ENFERMERIA;1;C;0;0;10;Cuadro de Texto;50;0;;;1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;18;0;;;
+CONTROL NEUROLOGICO;19;<h3>CONTROL NEUROLÓGICO</h3>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;
+CONTROL NEUROLOGICO;22;RESPUESTA VERBAL;ENFERMERIA;1;C;0;0;0;Lista Opciones;0;0;;";Orientada;Desorientada;Inapropiada;Incomprensible;Ninguna";1;;0;0;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;20;0;;;
+CONTROL NEUROLOGICO;20;ESCALA DE GLASGOW;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;19;;;;
+CONTROL NEUROLOGICO;21;APERTURA OCULAR;ENFERMERIA;1;C;0;0;0;Lista Opciones;0;0;;";Respuesta espontanea;Respuesta a voz;Respuesta al dolor;No responde";1;;0;0;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;20;0;;;
+CONTROL NEUROLOGICO;23;RESPUESTA MOTORA;ENFERMERIA;1;C;0;0;0;Lista Opciones;0;0;;";Obedece ordenes;Localiza estimulo;Retira en estimulo doloroso;Flexión anormal;Extensión anormal;Ninguna";1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;22;0;;;

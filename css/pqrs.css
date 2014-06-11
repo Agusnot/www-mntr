@@ -1,0 +1,58 @@
+/* 
+    Created on : 18/02/2014, 01:06:49 PM
+    Author     : Francisco Maya Sarasty
+*/
+
+table.imagetable {
+        font-family: verdana,arial,sans-serif;
+        font-size:11px;
+        color:#333333;
+        border-width: 1px;
+        border-color: #999999;
+        border-collapse: collapse;
+}
+table.imagetable th {
+        background-image: url('../Imgs/cell-blue.jpg');
+        background-color: #b5cfd2;
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #999999;
+}
+table.imagetable td {
+        background-image: url('../Imgs/cell-grey.jpg');
+        background-color: #dcddc0;
+        background-repeat: repeat-x;
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #999999;
+}
+
+.info, .success, .warning, .error, .validation {
+    border: 1px solid;
+    margin: 10px 20px 10px 20px;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('../Imgs/info.png');
+}
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('../Imgs/success.png');
+}
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('../Imgs/warning.png');
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('../Imgs/error.png');
+}

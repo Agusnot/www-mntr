@@ -1,0 +1,38 @@
+<?
+	$conex = pg_connect("dbname=sistema user=apache password=Server*1982") or die ('no establecida');
+	$conex1 = pg_connect("dbname=sistematmp user=apache password=Server*1982") or die ('no establecida 1');
+	
+	$Campos = array("compania","autoid","codigo","fechaadquisicion","grupo","impacto","nombre","caracteristicas","modelo",
+	"serie","estado","marca","costoinicial","depreciar","activo","depreciaren","depreciardurante","documentacion","observaciones",
+	"clase","usuariocrea","fechacrea","usuariomod","fechamod","numeroordencompra","tipo","cedula","vriva","vrretefte","incluyeiva","porciva",
+	"porcretefte","tmpcod","detalle","fechacompra","fechaordencompra","estadoordencomprax","numerocompra","depacumulada","depdesde","vrfactura",
+	"nofactura","uve","uuve","estadocompras","estadoordencompra","costoordencompra","costocompras","costoadicional","estadocomprasx");
+	
+	$cons = "Select compania,autoid,codigo,fechaadquisicion,grupo,impacto,nombre,caracteristicas,modelo,serie,estado,marca,costoinicial,depreciar,activo,depreciaren,
+	depreciardurante,documentacion,observaciones,clase,usuariocrea,fechacrea,usuariomod,fechamod,numeroordencompra,tipo,cedula,vriva,vrretefte,incluyeiva,porciva,
+	porcretefte,tmpcod,detalle,fechacompra,fechaordencompra,estadoordencomprax,numerocompra,depacumulada,depdesde,vrfactura,nofactura,uve,uuve,estadocompras,
+    estadoordencompra,costoordencompra,costocompras,costoadicional,estadocomprasx from Infraestructura.CodElementos";
+	$res = pg_query($conex1,$cons);
+	while($fila = pg_fetch_row($res))
+	{
+		$Elemento[$fila[1]]=array("'$fila[0]'",$fila[1],"'$fila[2]'","'$fila[3]'","'$fila[4]'","'$fila[5]'","'$fila[6]'","'$fila[7]'","'$fila[8]'","'$fila[9]'","'$fila[10]'",
+								  "'$fila[11]'",$fila[12],$fila[13],$fila[14],"'$fila[15]'",$fila[16],"'$fila[17]'","'$fila[18]'","'$fila[19]'","'$fila[20]'",
+								  "'$fila[21]'","'$fila[22]'","'$fila[23]'","'$fila[24]'","'$fila[25]'","'$fila[26]'",$fila[27],$fila[28],$fila[29],$fila[30],
+								  $fila[31],"'$fila[32]'","'$fila[33]'","'$fila[34]'","'$fila[35]'","'$fila[36]'","'$fila[37]'",$fila[38],"'$fila[39]'",$fila[40],
+								  "'$fila[41]'","'$fila[42]'","'$fila[43]'","'$fila[44]'","'$fila[45]'","'$fila[46]'",$fila[47],$fila[48],$fila[49],"'$fila[50]'");	
+	}
+	$res1 = pg_query($conex,$cons);
+	while($fila1 = pg_fetch_row($res1))
+	{
+		for($i=0;$i<=50;$i++)
+		{
+			if($fila1[$i]==NULL || $fila1[$i]=="")
+			{
+				$conx = "Update Infraestructura.CodElementos set ".$Campos[$i]."=".$Elemento[$fila1[1]][$i]." Where Autoid=$fila1[1]";
+				$resx = pg_query($conex,$conx);
+				echo "$Campos[$i]...";
+			}
+			echo "$fila1[1]<br>";	
+		}	
+	}
+?>

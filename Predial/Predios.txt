@@ -1,0 +1,61 @@
+CREATE TABLE predial.predios
+(
+  compania character varying(80) NOT NULL,
+  codmpo character varying(5),
+  zona character varying(2) NOT NULL,
+  sector character varying(2) NOT NULL,
+  vereda character varying(4) NOT NULL,
+  codcatastro character varying(7) NOT NULL,
+  noregistro character varying(1),
+  direccion character varying(34),
+  areaterrhc character varying(8),
+  areaterrmt character varying(9),
+  areaconstr character varying(6),
+  vigencia character varying(8) NOT NULL,
+  ultpago integer DEFAULT 0,
+  estado character varying(2) DEFAULT 'AC'::character varying,
+  exencion character varying(2),
+  destinacion character varying(2),
+  estrato character varying(2),
+  ultrecaudo integer,
+  CONSTRAINT "PkPredPredios" PRIMARY KEY (compania, zona, sector, vereda, codcatastro),
+  CONSTRAINT "FkPredDestinacion" FOREIGN KEY (compania, destinacion)
+      REFERENCES predial.destinaciones (compania, coddestinacion) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT "FkPredSectores" FOREIGN KEY (compania, sector)
+      REFERENCES predial.sectores (compania, codsector) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT "FkPredVeredas" FOREIGN KEY (compania, vereda)
+      REFERENCES predial.veredas (compania, codvereda) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT "FkPredZonas" FOREIGN KEY (compania, zona)
+      REFERENCES predial.zonas (compania, codzona) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT "FkPredioxEsrtato" FOREIGN KEY (compania, estrato)
+      REFERENCES predial.estratos (compania, codestrato) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION,
+  CONSTRAINT "FkPredxExcencion" FOREIGN KEY (compania, exencion)
+      REFERENCES predial.exenciones (compania, codexencion) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION
+)
+WITHOUT OIDS;
+ALTER TABLE predial.predios OWNER TO postgres;
+
+-- Index: predial."fki_FkPredSectores"
+
+-- DROP INDEX predial."fki_FkPredSectores";
+
+CREATE INDEX "fki_FkPredSectores"
+  ON predial.predios
+  USING btree
+  (compania, sector);
+
+-- Index: predial."fki_FkPredVeredas"
+
+-- DROP INDEX predial."fki_FkPredVeredas";
+
+CREATE INDEX "fki_FkPredVeredas"
+  ON predial.predios
+  USING btree
+  (compania, vereda);
+

@@ -1,0 +1,11 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+ATENCION AMBULATORIA;1;<h3>ATENCIÓN AMBULATORIA</h3>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;
+ATENCION AMBULATORIA;2;<b> INFORMACIÓN QUE APORTA EL PACIENTE Y/O ACOMPAÑANTE (Incluir tratamiento que viene recibiendo) </b>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;;;;
+ATENCION AMBULATORIA;3;INFORMACION PACIENTE;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;100;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;3;0;;;
+ATENCION AMBULATORIA;4;<b> HALLAZGOS FISICOS Y EXÁMEN MENTAL COMPLETO O DATOS DE RELEVANCIA SEGÚN SU ROL PROFESIONAL </b>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;4;;;;
+ATENCION AMBULATORIA;5;HALLAZGOS FISICOS;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;100;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;5;0;;;
+ATENCION AMBULATORIA;6;<b> ANÁLISIS </b>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;6;;;;
+ATENCION AMBULATORIA;7;ANALISIS;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;100;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;7;0;;;
+ATENCION AMBULATORIA;8;<b> PLAN</b>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;8;;;;
+ATENCION AMBULATORIA;9;PLAN;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;100;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;9;0;;;
+ATENCION AMBULATORIA;10;Diagnostico;HISTORIA CLINICA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;10;;;;

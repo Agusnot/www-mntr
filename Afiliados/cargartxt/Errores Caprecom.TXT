@@ -1,0 +1,4 @@
+Error en la linea 2: 321,,,,,
+
+Error en la linea 3: 5698,Nmbre3Nobre23,Apellido,Apellido
+

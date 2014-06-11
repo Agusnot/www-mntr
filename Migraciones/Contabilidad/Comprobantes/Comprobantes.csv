@@ -1,0 +1,19 @@
+comprobante;tipocomprobant;retencion;numeroinicial;compania;crucectacero;formato;comppresupuesto;comppresupuestoadc;cierre;acarreo;formatoadc;depreciacion;controlvencimiento
+FACTURACION;FACTURAS;0;63862;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+INGRESOS;INGRESO;0;1;CLINICA SAN JUAN DE DIOS;0;Formatos/Comprobante2CopiasSinPresu.php;;;0;0;;0;0
+RECIBOS DE CAJA;INGRESO;0;90330;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+EGRESO;EGRESO;1;20221;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteEgresoSinFirmas.php;;;;0;;;0
+CUENTAS POR PAGAR;CUENTAS X PAGAR;1;7135;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+CAUSACIONES;CONTABLES;0;124;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+DEPRECIACIONES;CONTABLES;0;61;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+AJUSTES;CONTABLES;1;405;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+CAJAS MENORES;CONTABLES;1;2412;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+NOTAS CREDITO;INGRESO;0;535;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+NOTAS DEBITO;INGRESO;0;234;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+NOMINA;CONTABLES;0;1;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+CIERRE ANUAL;CONTABLES;0;1;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+CONSIGNACIONES;INGRESO;0;586;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+SALDOS INICIALES;CONTABLES;0;1;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+COMPROBANTE;POR VALIDAR;0;1;CLINICA SAN JUAN DE DIOS;;impcomprobante.php;;;;0;;;0
+PAGO CLIENTES POR TRANSFERENCIA;INGRESO;0;20532;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0
+PRIMA;CONTABLES;0;1;CLINICA SAN JUAN DE DIOS;;Formatos/ComprobanteFrm1.php;;;;0;;;0

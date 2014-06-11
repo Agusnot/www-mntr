@@ -1,0 +1,11 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+NOTAS EVOLUCION;1;<h3>NOTAS DE EVOLUCIÓN </h3>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;
+NOTAS EVOLUCION;5;OBJETIVO;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;100;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;5;0;;;
+NOTAS EVOLUCION;9;PLAN;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;100;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;9;0;;;
+NOTAS EVOLUCION;10;Diagnostico;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;10;;;;
+NOTAS EVOLUCION;2;<b> SUBJETIVO </b>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;;;;
+NOTAS EVOLUCION;6;<b> ANÁLISIS </b>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;6;;;;
+NOTAS EVOLUCION;3;SUBJETIVO;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;100;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;3;0;;;
+NOTAS EVOLUCION;7;ANALISIS;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;100;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;7;0;;;
+NOTAS EVOLUCION;4;<b>OBJETIVO </b>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;4;;;;
+NOTAS EVOLUCION;8;<b> PLAN </b>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;8;;;;

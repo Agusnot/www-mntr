@@ -1,0 +1,9 @@
+Compania;Motivo;Estado
+CLINICA SAN JUAN DE DIOS;Egreso por mejoria ;Vivo
+CLINICA SAN JUAN DE DIOS;Remision ;Vivo
+CLINICA SAN JUAN DE DIOS;Salida Voluntaria ;Vivo
+CLINICA SAN JUAN DE DIOS;Fuga;Vivo
+CLINICA SAN JUAN DE DIOS;Muerte Natural;Muerto
+CLINICA SAN JUAN DE DIOS;Muerte Violenta;Muerto
+CLINICA SAN JUAN DE DIOS;Suicidio;Muerto
+CLINICA SAN JUAN DE DIOS;Muerte;Vivo

@@ -1,0 +1,7 @@
+En todos los campos se eliminan caracteres especiales para evitar inconvenientes  con la codificacion UTF8
+
+Hay 34 registros en los que la cedula esta diligenciada : 1\'54856531. De modo que en la migracion se eliminan los dos caracteres especiales
+
+Se ha modificado el PHP.ini para que no hay limite en la ejecuion de las consultas
+
+Se ha modificado el tamaño del campo cedula a 25 caracteres, debido a que en MySQL hay registros con mas de 15 caracteres. De estos registros hay 5 que tienen informacion diferente a la cedula

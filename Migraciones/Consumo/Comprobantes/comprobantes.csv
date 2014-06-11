@@ -1,0 +1,17 @@
+Almacenppal;Compania;Comprobante;Numeroinicial;TipoComprobante;Costo;Venta;IVA;Descto;Retefte;ICA;ComprobanteContable;CtaTipoVenta;Formato;Exigeoc;Mensaje1;Mensaje2;DesvioTotal;RequiereVoBo;Presupuesto;ComprobantePresup
+FARMACIA;CLINICA SAN JUAN DE DIOS;Ajustes;1;Ajustes;;;;;;;;;;;;;;0;0;
+SUMINISTROS;CLINICA SAN JUAN DE DIOS;Traslados;1;Traslados;NO;NO;NO;NO;NO;NO;;;Formatos/Traslado.php;NO;;;0;0;0;
+SUMINISTROS;CLINICA SAN JUAN DE DIOS;Ajustes;1;Orden de Compra;NO;NO;NO;NO;NO;NO;;;Formatos/ActaMovimiento.php;NO;;;0;0;0;
+FARMACIA;CLINICA SAN JUAN DE DIOS;Salidas Farmacia;1;Salidas;SI;NO;SI;NO;NO;NO;Suministros e inventarios;;Formatos/Venta.php;NO;;;0;0;0;
+FARMACIA;CLINICA SAN JUAN DE DIOS;Orden de Compra Farmacia;1;Orden de Compra;SI;NO;SI;NO;NO;NO;;;Formatos/OrdenCompra.php;NO;;;0;1;0;
+SUMINISTROS;CLINICA SAN JUAN DE DIOS;Salidas;1;Salidas;SI;NO;SI;NO;NO;NO;Suministros e inventarios;;Formatos/Venta.php;SI;;;0;0;0;
+FARMACIA;CLINICA SAN JUAN DE DIOS;Donaciones Farmacia;1;Entradas;NO;NO;NO;NO;NO;NO;Donaciones;;Formatos/Compra.php;NO;;;0;0;0;
+FARMACIA;CLINICA SAN JUAN DE DIOS;Prestamos Farmacia;1;Entradas;NO;NO;NO;NO;NO;NO;Prestamos;;Formatos/Compra.php;NO;;;0;0;0;
+SUMINISTROS;CLINICA SAN JUAN DE DIOS;Orden de Compra;1;Orden de Compra;SI;NO;SI;NO;SI;NO;;;Formatos/OrdenCompra.php;NO;;;0;1;0;
+FARMACIA;CLINICA SAN JUAN DE DIOS;Salidas por Plantilla;1;Salidas;NO;NO;NO;NO;NO;NO;Suministros e inventarios;;Formatos/Venta.php;SI;;;0;0;0;
+FARMACIA;CLINICA SAN JUAN DE DIOS;Salidas Urgentes;1;Salidas;NO;NO;NO;NO;NO;NO;Suministros e inventarios;;Formatos/Venta.php;SI;;;0;0;0;
+SUMINISTROS;CLINICA SAN JUAN DE DIOS;Salidas por devoluciones;1;Salidas;SI;NO;SI;NO;NO;NO;Nota credito;;Formatos/Devoluciones.php;NO;;;0;0;0;
+SUMINISTROS;CLINICA SAN JUAN DE DIOS;Devoluciones;1;Devoluciones;NO;NO;NO;NO;NO;NO;;;Formatos/Devoluciones.php;NO;;;0;0;0;
+FARMACIA;CLINICA SAN JUAN DE DIOS;Devoluciones;1;Devoluciones;NO;NO;NO;NO;NO;NO;;;Formatos/Devoluciones.php;NO;;;0;0;0;
+FARMACIA;CLINICA SAN JUAN DE DIOS;Entradas Farmacia;1;Entradas;SI;NO;SI;SI;SI;NO;Cuentas x pagar;;Formatos/Compra.php;NO;;;1000;0;0;
+SUMINISTROS;CLINICA SAN JUAN DE DIOS;Entradas;1;Entradas;SI;NO;SI;SI;SI;SI;Cuentas x pagar;;Formatos/Compra.php;NO;;;1000;0;0;

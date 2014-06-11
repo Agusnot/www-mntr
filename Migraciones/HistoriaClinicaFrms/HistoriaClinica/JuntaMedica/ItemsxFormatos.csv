@@ -1,0 +1,4 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+JUNTA MEDICA;1;<h3> JUNTA MÉDICA </h3>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;
+JUNTA MEDICA;2;<b> RESUMEN CLÍNICO </b>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;;;;
+JUNTA MEDICA;3;RESUMEN CLINICO;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;800;150;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;3;0;;;

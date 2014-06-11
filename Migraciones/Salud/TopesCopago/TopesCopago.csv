@@ -1,0 +1,168 @@
+compania;anio;tipousuario;tipoasegurador;nivelusu;clase;ambito;valor;tipocopago;topeanual;id;topeevento
+CLINICA SAN JUAN DE DIOS;2011;Beneficiario;Contributivo;Nivel II;Fijo;Centro Ambulatorio;8300;Cuota Moderadora;0;3;0
+CLINICA SAN JUAN DE DIOS;2011;Cotizante;Contributivo;Nivel II;Fijo;Centro Ambulatorio;8300;Cuota Moderadora;0;4;0
+CLINICA SAN JUAN DE DIOS;2011;Beneficiario;Contributivo;Nivel III;Fijo;Centro Ambulatorio;21700;Cuota Moderadora;0;5;0
+CLINICA SAN JUAN DE DIOS;2011;Cotizante;Contributivo;Nivel III;Fijo;Centro Ambulatorio;21700;Cuota Moderadora;0;6;0
+CLINICA SAN JUAN DE DIOS;2011;Cotizante;Contributivo;Nivel III;Fijo;Consulta Externa;21700;Cuota Moderadora;0;15;0
+CLINICA SAN JUAN DE DIOS;2011;Beneficiario;Contributivo;Nivel I;Fijo;Centro Ambulatorio;2100;Cuota Moderadora;0;1;0
+CLINICA SAN JUAN DE DIOS;2011;Beneficiario;Especial;Nivel I;Fijo;Centro Ambulatorio;1900;Cuota Moderadora;0;18;0
+CLINICA SAN JUAN DE DIOS;2011;Cotizante;Contributivo;Nivel I;Fijo;Centro Ambulatorio;2100;Cuota Moderadora;0;2;0
+CLINICA SAN JUAN DE DIOS;2011;Beneficiario;Contributivo;Nivel I;Fijo;Consulta Externa;2100;Cuota Moderadora;0;10;0
+CLINICA SAN JUAN DE DIOS;2011;Cotizante;Contributivo;Nivel I;Fijo;Consulta Externa;2100;Cuota Moderadora;0;11;0
+CLINICA SAN JUAN DE DIOS;2011;Beneficiario;Contributivo;Nivel II;Fijo;Consulta Externa;8300;Cuota Moderadora;0;12;0
+CLINICA SAN JUAN DE DIOS;2011;Cotizante;Contributivo;Nivel II;Fijo;Consulta Externa;8300;Cuota Moderadora;0;13;0
+CLINICA SAN JUAN DE DIOS;2011;Beneficiario;Contributivo;Nivel III;Fijo;Consulta Externa;21700;Cuota Moderadora;0;14;0
+CLINICA SAN JUAN DE DIOS;2011;Beneficiario;Contributivo;Nivel II;Porcentual;Hospitalizacion;17.3;Copago;612375;8;0
+CLINICA SAN JUAN DE DIOS;2011;Beneficiario;Contributivo;Nivel III;Porcentual;Hospitalizacion;23;Copago;1224750;9;0
+CLINICA SAN JUAN DE DIOS;2011;Beneficiario;Contributivo;Nivel I;Porcentual;Hospitalizacion;11.5;Copago;306188;7;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Especial;Nivel I;Fijo;Centro Ambulatorio;1900;Cuota Moderadora;0;36;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel I;Fijo;Centro Ambulatorio;2200;Cuota Moderadora;0;19;0
+CLINICA SAN JUAN DE DIOS;2012;Cotizante;Contributivo;Nivel I;Fijo;Centro Ambulatorio;2200;Cuota Moderadora;0;20;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel I;Fijo;Consulta Externa;2200;Cuota Moderadora;0;28;0
+CLINICA SAN JUAN DE DIOS;2012;Cotizante;Contributivo;Nivel I;Fijo;Consulta Externa;2200;Cuota Moderadora;0;29;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel II;Fijo;Centro Ambulatorio;8700;Cuota Moderadora;0;21;0
+CLINICA SAN JUAN DE DIOS;2012;Cotizante;Contributivo;Nivel II;Fijo;Centro Ambulatorio;8700;Cuota Moderadora;0;22;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel II;Fijo;Consulta Externa;8700;Cuota Moderadora;0;30;0
+CLINICA SAN JUAN DE DIOS;2012;Cotizante;Contributivo;Nivel II;Fijo;Consulta Externa;8700;Cuota Moderadora;0;31;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel III;Fijo;Centro Ambulatorio;22900;Cuota Moderadora;0;23;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel III;Fijo;Consulta Externa;22900;Cuota Moderadora;0;32;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel I;Porcentual;Hospitalizacion;11.5;Copago;325832;25;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel II;Porcentual;Hospitalizacion;17.3;Copago;1303329;26;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel III;Porcentual;Hospitalizacion;23;Copago;2606659;27;0
+CLINICA SAN JUAN DE DIOS;2012;Cotizante;Contributivo;Nivel III;Fijo;Centro Ambulatorio;23000;Cuota Moderadora;0;24;0
+CLINICA SAN JUAN DE DIOS;2012;Cotizante;Contributivo;Nivel III;Fijo;Consulta Externa;23000;Cuota Moderadora;0;33;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;Contributivo;Nivel I;Fijo;Consulta Externa;2200;Cuota Moderadora;0;43;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;Contributivo;Nivel II;Fijo;Consulta Externa;8700;Cuota Moderadora;0;44;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;Contributivo;Nivel III;Fijo;Consulta Externa;23000;Cuota Moderadora;0;45;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel I;Fijo;Consulta Externa;2200;Cuota Moderadora;0;46;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel II;Fijo;Consulta Externa;8700;Cuota Moderadora;0;47;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel III;Fijo;Consulta Externa;23000;Cuota Moderadora;0;48;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;Contributivo;Nivel I;Porcentual;Hospital Dia;162643;Copago;325853;52;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel I;Porcentual;Hospital Dia;162643;Copago;325853;53;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;Contributivo;Nivel II;Porcentual;Hospital Dia;651705;Copago;1303410;54;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel II;Porcentual;Hospital Dia;651705;Copago;1303410;55;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;Contributivo;Nivel III;Porcentual;Hospital Dia;1303410;Copago;2606820;56;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;Contributivo;Nivel I;Porcentual;Hospitalizacion;162643;Copago;325853;37;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel I;Porcentual;Hospitalizacion;162643;Copago;325853;38;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;Contributivo;Nivel II;Porcentual;Hospitalizacion;651705;Copago;1303410;39;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel II;Porcentual;Hospitalizacion;651705;Copago;1303410;40;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;Contributivo;Nivel III;Porcentual;Hospitalizacion;1303410;Copago;2606820;41;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel III;Porcentual;Hospitalizacion;1303410;Copago;2606820;42;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;Contributivo;Nivel I;Fijo;Consulta Externa;2300;Cuota Moderadora;0;89;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;Contributivo;Nivel II;Fijo;Consulta Externa;9100;Cuota Moderadora;0;91;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;IPS;Nivel II;Porcentual;Hospitalizacion;651705;Copago;1303410;60;0
+CLINICA SAN JUAN DE DIOS;2013;Cotizante;Contributivo;Nivel I;Fijo;Consulta Externa;2300;Cuota Moderadora;0;90;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;IPS;Nivel III;Porcentual;Hospitalizacion;1303410;Copago;2606820;62;0
+CLINICA SAN JUAN DE DIOS;2012;Cotizante;Contributivo;Nivel I;Fijo;Consulta Externa;23000;Cuota Moderadora;0;49;0
+CLINICA SAN JUAN DE DIOS;2012;Cotizante;Contributivo;Nivel II;Fijo;Consulta Externa;8700;Cuota Moderadora;0;50;0
+CLINICA SAN JUAN DE DIOS;2012;Cotizante;Contributivo;Nivel III;Fijo;Consulta Externa;23000;Cuota Moderadora;0;51;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;IPS;Nivel I;Fijo;Consulta Externa;2200;Cuota Moderadora;0;71;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;IPS;Nivel I;Fijo;Consulta Externa;2200;Cuota Moderadora;0;72;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;IPS;Nivel II;Fijo;Consulta Externa;8700;Cuota Moderadora;0;73;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;IPS;Nivel II;Fijo;Consulta Externa;8700;Cuota Moderadora;0;74;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;IPS;Nivel III;Fijo;Consulta Externa;23000;Cuota Moderadora;0;75;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;IPS;Nivel III;Fijo;Consulta Externa;23000;Cuota Moderadora;0;76;0
+CLINICA SAN JUAN DE DIOS;2012;Cotizante;IPS;Nivel I;Fijo;Consulta Externa;2200;Cuota Moderadora;0;77;0
+CLINICA SAN JUAN DE DIOS;2012;Cotizante;IPS;Nivel II;Fijo;Consulta Externa;8700;Cuota Moderadora;0;78;0
+CLINICA SAN JUAN DE DIOS;2012;Cotizante;IPS;Nivel III;Fijo;Consulta Externa;23000;Cuota Moderadora;0;79;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel III;Porcentual;Hospital Dia;1303410;Copago;2606820;57;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;IPS;Nivel I;Porcentual;Hospital Dia;162643;Copago;325853;64;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;IPS;Nivel I;Porcentual;Hospital Dia;162643;Copago;325853;65;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;IPS;Nivel II;Porcentual;Hospital Dia;651705;Copago;1303410;66;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;IPS;Nivel II;Porcentual;Hospital Dia;651705;Copago;1303410;67;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;IPS;Nivel III;Porcentual;Hospital Dia;1303410;Copago;2606820;68;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;Contributivo;Nivel III;Porcentual;Hospital Dia;1303410;Copago;2606820;69;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;IPS;Nivel III;Porcentual;Hospital Dia;1303410;Copago;2606820;70;0
+CLINICA SAN JUAN DE DIOS;2012;Adicional;IPS;Nivel I;Porcentual;Hospitalizacion;162643;Copago;325853;59;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;IPS;Nivel I;Fijo;Hospitalizacion;162643;Copago;325853;58;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;IPS;Nivel II;Porcentual;Hospitalizacion;651705;Copago;1303410;61;0
+CLINICA SAN JUAN DE DIOS;2012;Beneficiario;IPS;Nivel III;Porcentual;Hospitalizacion;23;Copago;2606820;63;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;Contributivo;Nivel I;Fijo;Centro Ambulatorio;2200;Cuota Moderadora;0;80;0
+CLINICA SAN JUAN DE DIOS;2013;Cotizante;Contributivo;Nivel I;Fijo;Centro Ambulatorio;2200;Cuota Moderadora;0;81;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;Contributivo;Nivel II;Fijo;Centro Ambulatorio;8700;Cuota Moderadora;0;82;0
+CLINICA SAN JUAN DE DIOS;2013;Cotizante;Contributivo;Nivel II;Fijo;Centro Ambulatorio;8700;Cuota Moderadora;0;83;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;Contributivo;Nivel III;Fijo;Centro Ambulatorio;22900;Cuota Moderadora;0;84;0
+CLINICA SAN JUAN DE DIOS;2013;Cotizante;Contributivo;Nivel III;Fijo;Centro Ambulatorio;23000;Cuota Moderadora;0;85;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;Especial;Nivel I;Fijo;Centro Ambulatorio;1900;Cuota Moderadora;0;95;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;Contributivo;Nivel I;Fijo;Consulta Externa;2300;Cuota Moderadora;0;102;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;Contributivo;Nivel II;Fijo;Consulta Externa;9100;Cuota Moderadora;0;103;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;Contributivo;Nivel III;Fijo;Consulta Externa;23900;Cuota Moderadora;0;104;0
+CLINICA SAN JUAN DE DIOS;2013;Cotizante;Contributivo;Nivel II;Fijo;Consulta Externa;9100;Cuota Moderadora;0;109;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;Contributivo;Nivel III;Fijo;Consulta Externa;23900;Cuota Moderadora;0;107;0
+CLINICA SAN JUAN DE DIOS;2013;Cotizante;Contributivo;Nivel III;Fijo;Consulta Externa;23900;Cuota Moderadora;0;94;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;IPS;Nivel I;Fijo;Consulta Externa;2300;Cuota Moderadora;0;130;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;IPS;Nivel II;Fijo;Consulta Externa;9100;Cuota Moderadora;0;132;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;IPS;Nivel III;Fijo;Consulta Externa;23900;Cuota Moderadora;0;134;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;IPS;Nivel I;Fijo;Consulta Externa;2300;Cuota Moderadora;0;131;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;IPS;Nivel II;Fijo;Consulta Externa;9100;Cuota Moderadora;0;133;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;IPS;Nivel III;Fijo;Consulta Externa;23900;Cuota Moderadora;0;135;0
+CLINICA SAN JUAN DE DIOS;2013;Cotizante;IPS;Nivel I;Fijo;Consulta Externa;2300;Cuota Moderadora;0;136;0
+CLINICA SAN JUAN DE DIOS;2013;Cotizante;IPS;Nivel II;Fijo;Consulta Externa;9100;Cuota Moderadora;0;137;0
+CLINICA SAN JUAN DE DIOS;2013;Cotizante;IPS;Nivel III;Fijo;Consulta Externa;23900;Cuota Moderadora;0;138;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;Contributivo;Nivel I;Porcentual;Hospital Dia;169187;Copago;338963;111;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;Contributivo;Nivel II;Porcentual;Hospital Dia;677925;Copago;1355850;113;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;Contributivo;Nivel III;Porcentual;Hospital Dia;1355850;Copago;2711700;115;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;Contributivo;Nivel I;Porcentual;Hospital Dia;169187;Copago;338963;112;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;Contributivo;Nivel II;Porcentual;Hospital Dia;677925;Copago;1355850;114;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;Contributivo;Nivel III;Porcentual;Hospital Dia;1355850;Copago;2711700;128;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;IPS;Nivel I;Porcentual;Hospital Dia;169187;Copago;338963;123;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;IPS;Nivel II;Porcentual;Hospital Dia;677925;Copago;1355850;125;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;IPS;Nivel III;Porcentual;Hospital Dia;1355850;Copago;2711700;127;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;IPS;Nivel I;Porcentual;Hospital Dia;169187;Copago;338963;124;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;IPS;Nivel II;Porcentual;Hospital Dia;677925;Copago;1355850;126;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;IPS;Nivel III;Porcentual;Hospital Dia;1355850;Copago;2711700;129;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;Contributivo;Nivel I;Porcentual;Hospitalizacion;169187;Copago;338963;96;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;Contributivo;Nivel II;Porcentual;Hospitalizacion;677925;Copago;1355850;98;0
+CLINICA SAN JUAN DE DIOS;2013;Adicional;Contributivo;Nivel III;Porcentual;Hospitalizacion;1355850;Copago;2711700;100;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;IPS;Nivel III;Porcentual;Hospitalizacion;23;Copago;2711700;142;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;Contributivo;Nivel I;Porcentual;Hospitalizacion;11.5;Copago;338963;139;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;Contributivo;Nivel II;Porcentual;Hospitalizacion;17.3;Copago;1355850;140;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;Contributivo;Nivel III;Porcentual;Hospitalizacion;23;Copago;2711700;141;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;IPS;Nivel I;Porcentual;Hospitalizacion;11.5;Copago;338963;117;0
+CLINICA SAN JUAN DE DIOS;2013;Beneficiario;IPS;Nivel II;Porcentual;Hospitalizacion;17.3;Copago;1355850;120;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;Contributivo;Nivel I;Fijo;Centro Ambulatorio;2200;Cuota Moderadora;0;143;0
+CLINICA SAN JUAN DE DIOS;2014;Cotizante;Contributivo;Nivel I;Fijo;Centro Ambulatorio;2200;Cuota Moderadora;0;144;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;Contributivo;Nivel II;Fijo;Centro Ambulatorio;8700;Cuota Moderadora;0;145;0
+CLINICA SAN JUAN DE DIOS;2014;Cotizante;Contributivo;Nivel II;Fijo;Centro Ambulatorio;8700;Cuota Moderadora;0;146;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;Contributivo;Nivel III;Fijo;Centro Ambulatorio;22900;Cuota Moderadora;0;147;0
+CLINICA SAN JUAN DE DIOS;2014;Cotizante;Contributivo;Nivel III;Fijo;Centro Ambulatorio;23000;Cuota Moderadora;0;148;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;Especial;Nivel I;Fijo;Centro Ambulatorio;1900;Cuota Moderadora;0;153;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;Contributivo;Nivel II;Fijo;Consulta Externa;9500;Cuota Moderadora;0;151;0
+CLINICA SAN JUAN DE DIOS;2014;Adicional;Contributivo;Nivel II;Fijo;Consulta Externa;9500;Cuota Moderadora;0;158;0
+CLINICA SAN JUAN DE DIOS;2014;Cotizante;Contributivo;Nivel II;Fijo;Consulta Externa;9500;Cuota Moderadora;0;161;0
+CLINICA SAN JUAN DE DIOS;2014;Adicional;IPS;Nivel II;Fijo;Consulta Externa;9500;Cuota Moderadora;0;178;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;IPS;Nivel II;Fijo;Consulta Externa;9500;Cuota Moderadora;0;179;0
+CLINICA SAN JUAN DE DIOS;2014;Cotizante;Contributivo;Nivel III;Fijo;Consulta Externa;25000;Cuota Moderadora;0;152;0
+CLINICA SAN JUAN DE DIOS;2014;Adicional;Contributivo;Nivel III;Fijo;Consulta Externa;25000;Cuota Moderadora;0;159;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;Contributivo;Nivel III;Fijo;Consulta Externa;25000;Cuota Moderadora;0;160;0
+CLINICA SAN JUAN DE DIOS;2014;Adicional;IPS;Nivel III;Fijo;Consulta Externa;25000;Cuota Moderadora;0;180;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;IPS;Nivel III;Fijo;Consulta Externa;25000;Cuota Moderadora;0;181;0
+CLINICA SAN JUAN DE DIOS;2014;Adicional;Contributivo;Nivel II;Porcentual;Hospital Dia;708400;Copago;1416800;164;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;Contributivo;Nivel II;Porcentual;Hospital Dia;708400;Copago;1416800;165;0
+CLINICA SAN JUAN DE DIOS;2014;Adicional;IPS;Nivel II;Porcentual;Hospital Dia;708400;Copago;1416800;171;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;IPS;Nivel II;Porcentual;Hospital Dia;708400;Copago;1416800;172;0
+CLINICA SAN JUAN DE DIOS;2014;Adicional;Contributivo;Nivel III;Porcentual;Hospital Dia;1416800;Copago;2833600;166;0
+CLINICA SAN JUAN DE DIOS;2014;Adicional;IPS;Nivel III;Porcentual;Hospital Dia;1416800;Copago;2833600;173;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;Contributivo;Nivel III;Porcentual;Hospital Dia;1416800;Copago;2833600;174;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;IPS;Nivel III;Porcentual;Hospital Dia;1416800;Copago;2833600;175;0
+CLINICA SAN JUAN DE DIOS;2014;Adicional;Contributivo;Nivel I;Porcentual;Hospital Dia;176792;Copago;354200;162;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;Contributivo;Nivel I;Porcentual;Hospital Dia;176792;Copago;354200;163;0
+CLINICA SAN JUAN DE DIOS;2014;Adicional;IPS;Nivel I;Porcentual;Hospital Dia;176792;Copago;354200;169;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;IPS;Nivel I;Porcentual;Hospital Dia;176792;Copago;354200;170;0
+CLINICA SAN JUAN DE DIOS;2014;Cotizante;Contributivo;Nivel I;Fijo;Consulta Externa;2400;Cuota Moderadora;0;150;0
+CLINICA SAN JUAN DE DIOS;2014;Cotizante;IPS;Nivel II;Fijo;Consulta Externa;9500;Cuota Moderadora;0;183;0
+CLINICA SAN JUAN DE DIOS;2014;Adicional;Contributivo;Nivel II;Porcentual;Hospitalizacion;17.3;Copago;1416800;155;0
+CLINICA SAN JUAN DE DIOS;2014;Adicional;Contributivo;Nivel III;Porcentual;Hospitalizacion;23;Copago;2833600;156;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;Contributivo;Nivel I;Porcentual;Hospitalizacion;11.5;Copago;354200;185;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;Contributivo;Nivel II;Porcentual;Hospitalizacion;17.3;Copago;1416800;186;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;Contributivo;Nivel III;Porcentual;Hospitalizacion;23;Copago;2833600;187;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;IPS;Nivel I;Porcentual;Hospitalizacion;11.5;Copago;354200;167;0
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;IPS;Nivel III;Porcentual;Hospitalizacion;23;Copago;2833600;188;0
+CLINICA SAN JUAN DE DIOS;2014;Cotizante;IPS;Nivel III;Fijo;Consulta Externa;25000;Cuota Moderadora;0;184;
+CLINICA SAN JUAN DE DIOS;2014;Adicional;Contributivo;Nivel I;Fijo;Consulta Externa;2400;Cuota Moderadora;0;157;
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;Contributivo;Nivel I;Fijo;Consulta Externa;2400;Cuota Moderadora;0;149;
+CLINICA SAN JUAN DE DIOS;2014;Adicional;IPS;Nivel I;Fijo;Consulta Externa;2400;Cuota Moderadora;0;176;
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;IPS;Nivel I;Fijo;Consulta Externa;2400;Cuota Moderadora;0;177;
+CLINICA SAN JUAN DE DIOS;2014;Cotizante;IPS;Nivel I;Fijo;Consulta Externa;2400;Cuota Moderadora;0;182;
+CLINICA SAN JUAN DE DIOS;2014;Adicional;Contributivo;Nivel I;Porcentual;Hospitalizacion;11.5;Copago;354200;154;176792
+CLINICA SAN JUAN DE DIOS;2014;Beneficiario;IPS;Nivel II;Porcentual;Hospitalizacion;17.3;Copago;1416800;168;708400

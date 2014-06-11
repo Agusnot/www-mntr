@@ -1,0 +1,15 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+CONSUMO SPA INTRAHOSPITALARIO;13;<h3> CONSUMO SPA INTRAHOSPITALARIO </h3>;PACIENTE SEGURO;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;
+CONSUMO SPA INTRAHOSPITALARIO;14;DESCRIPCIÓN;PACIENTE SEGURO;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;9;;;;
+CONSUMO SPA INTRAHOSPITALARIO;4;TIPO DE CASO;PACIENTE SEGURO;1;L;0;0;0;Lista Opciones;0;0;;";Sospecha;Confirmado por el laboratorio;Confirmado por el paciente;Confirmado por la clinica;Confirmado por el colaborador;Otro";1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;5;0;;;
+CONSUMO SPA INTRAHOSPITALARIO;5;TIPO DE SUSTANCIA;PACIENTE SEGURO;1;L;0;0;0;Lista Opciones;0;0;;";Alcohol;Anticonvulsivantes;Antidepresivos;Antipsicoticos;Benzodiacepinas;Cigarrillo;Cocaina y derivados;Heroina;Inhalables;Marihuana;Otros";1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;6;0;;;
+CONSUMO SPA INTRAHOSPITALARIO;6;VIA DE CONSUMO;PACIENTE SEGURO;1;L;0;0;0;Lista Opciones;0;0;;";Fumado;Inhalado;Intramuscular;Intravenoso;Oral;Topico;Otros";1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;7;0;;;
+CONSUMO SPA INTRAHOSPITALARIO;7;FORMA DE CONSECUCIÓN;PACIENTE SEGURO;1;L;0;0;0;Lista Opciones;0;0;;";Ocultado en pertenencias;Por otro paciente;Por familiares;Por visitantes;Otros";0;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;8;0;;;
+CONSUMO SPA INTRAHOSPITALARIO;1;SERVICIO;PACIENTE SEGURO;1;L;0;0;0;Lista Opciones;0;0;;";ADICCIONES;CRONICAS MUJERES;CRONICOS HOMBRES;INIMPUTABLES;INTERMEDIOS HOMBRES;INTERMEDIOS MUJERES;JUAN CIUDAD;LARGA ESTANCIA;OBSERVACION;PISO HOMBRES;UCA;UCA JUAN CIUDAD;UCI-P";1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;0;;;
+CONSUMO SPA INTRAHOSPITALARIO;8;DESCRIPCIÓN;PACIENTE SEGURO;1;C;0;0;400;Area de Texto;400;200;;;1;;1;0;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;10;0;;;
+CONSUMO SPA INTRAHOSPITALARIO;9;NOTIFICAR A;PACIENTE SEGURO;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;11;;;;
+CONSUMO SPA INTRAHOSPITALARIO;2;FECHA DEL EVENTO;PACIENTE SEGURO;1;C;0;0;10;Fecha;80;0;;;1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;3;0;;;
+CONSUMO SPA INTRAHOSPITALARIO;3;HORA DEL EVENTO;PACIENTE SEGURO;1;C;0;0;5;Cuadro de Texto;50;0;;;1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;4;0;;;
+CONSUMO SPA INTRAHOSPITALARIO;10;JEFE DE ENFERMERIA;PACIENTE SEGURO;1;C;0;0;5;Cuadro de Chequeo;0;0;;;0;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;12;0;;;
+CONSUMO SPA INTRAHOSPITALARIO;11;MEDICO GENERAL;PACIENTE SEGURO;1;C;0;0;5;Cuadro de Chequeo;0;0;;;0;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;13;0;;;
+CONSUMO SPA INTRAHOSPITALARIO;12;PACIENTE SEGURO;PACIENTE SEGURO;1;C;0;0;5;Cuadro de Chequeo;0;0;;;0;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;14;0;;;

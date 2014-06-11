@@ -1,0 +1,5 @@
+compania;ambito;medprog;hospitalizar;trasladound;procedimientos;interprog;dietas;notas;egreso;comedores;remision;alta;altavoluntaria;deceso;mednoprog
+CLINICA SAN JUAN DE DIOS;Consulta Externa;0;1;0;0;0;0;1;0;0;0;0;0;0;1
+CLINICA SAN JUAN DE DIOS;Hospitalizacion;1;1;1;1;1;1;1;1;0;0;0;0;0;1
+CLINICA SAN JUAN DE DIOS;Sin Ambito;0;1;0;1;1;0;1;1;0;0;0;0;0;1
+CLINICA SAN JUAN DE DIOS;Urgencias;1;1;1;1;1;1;1;1;0;0;0;0;0;1

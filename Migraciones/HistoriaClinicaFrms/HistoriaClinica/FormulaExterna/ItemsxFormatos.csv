@@ -1,0 +1,9 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+FORMULA EXTERNA;1;<h3> FÓRMULA EXTERNA </h3>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;
+FORMULA EXTERNA;8;Diagnostico;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;8;;;;
+FORMULA EXTERNA;2;<b> MEDICAMENTOS FORMULADOS </b>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;;;;
+FORMULA EXTERNA;3;MEDICAMENTOS FORMULADOS;HISTORIA CLINICA;1;L;0;0;0;Medicamentos unilinea;0;0;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;3;0;;;
+FORMULA EXTERNA;4;<b> DETALLE DE FORMULACIÓN </b>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;4;;;;
+FORMULA EXTERNA;5;DETALLE DE FORMULACION;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;800;70;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;5;0;;;
+FORMULA EXTERNA;6;<b> DURACIÓN TRATAMIENTO </b>;HISTORIA CLINICA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;6;;;;
+FORMULA EXTERNA;7;NÚMERO DE DÍAS DEL TRATAMIENTO;HISTORIA CLINICA;1;L;0;0;0;Lista Opciones;0;0;;";30 dias;60 dias;90 dias;120 dias;180 dias";1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;7;0;;;

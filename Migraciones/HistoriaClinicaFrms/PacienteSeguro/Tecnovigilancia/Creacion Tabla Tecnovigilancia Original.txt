@@ -1,0 +1,76 @@
+CREATE TABLE histoclinicafrms.tbl00029
+(
+  formato character varying(150) NOT NULL,
+  tipoformato character varying(150) NOT NULL,
+  id_historia integer NOT NULL DEFAULT 0,
+  usuario character varying(150) NOT NULL,
+  cargo character varying(80) NOT NULL,
+  fecha date,
+  hora time without time zone,
+  cedula character varying(15) NOT NULL,
+  ambito character varying(150),
+  unidadhosp character varying(150),
+  numservicio integer,
+  compania character varying(60) NOT NULL,
+  cerrado integer,
+  noliquidacion integer DEFAULT 0,
+  finalidadconsult character varying(5),
+  causaexterna character varying(5),
+  dx1 character varying(6),
+  dx2 character varying(6),
+  dx3 character varying(6),
+  dx4 character varying(6),
+  dx5 character varying(6),
+  tipodx character varying(1),
+  numproced integer,
+  usuarioajuste character varying(30),
+  fechaajuste date,
+  padretipoformato character varying(150),
+  padreformato character varying(150),
+  id_historia_origen integer,
+  cmp00003 date,
+  cmp00004 character varying(255),
+  cmp00006 character varying(100),
+  cmp00007 character varying(5),
+  cmp00008 character varying(5),
+  cmp00009 character varying(5),
+  cmp00010 character varying(100),
+  cmp00011 character varying(5),
+  cmp00012 text,
+  idsvital numeric,
+  cmp00014 text,
+  cmp00016 character varying(255),
+  cmp00017 text,
+  cmp00019 character varying(255),
+  cmp00020 text,
+  cmp00023 text,
+  cmp00025 text,
+  cmp00027 text,
+  cmp00029 text,
+  cmp00031 text,
+  cmp00033 text,
+  cmp00036 text,
+  cmp00037 text,
+  cmp00039 text,
+  cmp00041 character varying(255),
+  cmp00045 text,
+  CONSTRAINT pkhctbltbl00029 PRIMARY KEY (formato , tipoformato , id_historia , cedula , compania ),
+  CONSTRAINT fkambtbltbl00029 FOREIGN KEY (ambito, compania)
+      REFERENCES salud.ambitos (ambito, compania) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT fkitemsxtbltbl00029 FOREIGN KEY (formato, tipoformato, compania)
+      REFERENCES historiaclinica.formatos (formato, tipoformato, compania) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT fkmedxtbltbl00029 FOREIGN KEY (usuario, cargo, compania)
+      REFERENCES salud.medicos (usuario, cargo, compania) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT fkpabxtbltbl00029 FOREIGN KEY (unidadhosp, compania, ambito)
+      REFERENCES salud.pabellones (pabellon, compania, ambito) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT fktercxtbltbl00029 FOREIGN KEY (cedula, compania)
+      REFERENCES central.terceros (identificacion, compania) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT
+)
+WITH (
+  OIDS=FALSE
+)

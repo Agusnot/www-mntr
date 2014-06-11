@@ -1,0 +1,88 @@
+Hospital San Rafael de Pasto,DtoSudadera,Campo,,,Deducidos,Valor,1,Descuento sudadera
+Hospital San Rafael de Pasto,VrIncapacidad,Formula,$SalBase/30*$DiasIncapacEG*0.75,DiasIncapacEG,Devengados,Valor,2,Vr Incapacidad EG
+Hospital San Rafael de Pasto,Salud,Formula,if($TotDevengados<$SalMinimo){return(21424);}else{return($TotDevengados*0.04);},DiasTr,Deducidos,AutoRegistro,3,Salud
+Hospital San Rafael de Pasto,HrsExtDiu,Campo,,,Devengados,Cantidad,4,Hrs Extras Diurnas
+Hospital San Rafael de Pasto,VrHrsExtDiuFes,Formula,($SalBase/$NoHorasLab)*$HrsExtDiuFest*2,HrsExtDiuFest,Devengados,Valor,5,Vr Hrs Extr Diurnas Fest
+Hospital San Rafael de Pasto,VrHrsFest,Formula,($SalBase/$NoHorasLab)*$HrsFest*1.75,HrsFest,Devengados,Valor,6,Vr Horas Festivas
+Hospital San Rafael de Pasto,Retencion,Campo,,,Deducidos,Valor,7,Retencion Fte
+Hospital San Rafael de Pasto,HrsExtFestNoc,Campo,,,Devengados,Cantidad,8,Hrs Extras Fest Nocturnas
+Hospital San Rafael de Pasto,VrHrsExtFestNoct,Formula,($SalBase/$NoHorasLab)*$HrsExtFestNoc*2.5,HrsExtFestNoc,Devengados,Valor,9,Vr Hrs Extras Fest Noct
+Hospital San Rafael de Pasto,LicMaternidad,Campo,,,Devengados,Dias,10,Licencia Maternidad
+Hospital San Rafael de Pasto,DtoDiplomado,Campo,,,Deducidos,Valor,11,Descuento Diplomado
+Hospital San Rafael de Pasto,Bonificaciones,Campo,,,Devengados,Valor,12,Bonificaciones
+Hospital San Rafael de Pasto,DiasVacac,Campo,,,Devengados,Dias,13,Dias Vacaciones
+Hospital San Rafael de Pasto,Vr Vacaciones,Formula,(($SalBase/30)*$DiasVacac),DiasVacac,Devengados,Valor,14,VrVacaciones
+Hospital San Rafael de Pasto,IntCesantias,Campo,,,PostDevengados,Valor,15,Intereses Cesantias
+Hospital San Rafael de Pasto,Pension,Formula,if($TotDevengados<$SalMinimo){return(21424);}else{return((($TotDevengados+$VrDiasSusp+$VrDiasLicNoRem)*0.04));},DiasTr,Deducidos,AutoRegistro,16,Pension
+Hospital San Rafael de Pasto,FondoSol,Formula,if($TotDevengados>($SalMinimo*4)){return($TotDevengados*0.01);}else{return(0);},DiasTr,Deducidos,AutoRegistro,17,Fondo Solidaridad
+Hospital San Rafael de Pasto,AuxTransporte,Formula,if($SalBase<($SalMinimo*2)){return(2120*$DiasTr);}else{return(0);},DiasTr,PostDevengados,AutoRegistro,18,Auxilio de Transporte
+Hospital San Rafael de Pasto,DiasIncapac,Campo,,,Devengados,Dias,19,Dias Incapacidad
+Hospital San Rafael de Pasto,DiasIncapacEG,Campo,,,Devengados,Cantidad,20,Dias Incapac EG
+Hospital San Rafael de Pasto,HrsFest,Campo,,,Devengados,Cantidad,21,Horas Festivas
+Hospital San Rafael de Pasto,HrsExtDiuFest,Campo,,,Devengados,Cantidad,22,Hrs Ext Diurnas Fest
+Hospital San Rafael de Pasto,VrHrsExtNoct,Formula,($SalBase/$NoHorasLab)*$HrsExtNoc*1.75,HrsExtNoc,Devengados,Valor,23,Vr Horas Ext Nocturnas
+Hospital San Rafael de Pasto,HrsExtNoc,Campo,,,Devengados,Cantidad,24,Horas Ext Nocturnas
+Hospital San Rafael de Pasto,VrHrsExtDiu,Formula,($SalBase/$NoHorasLab)*$HrsExtDiu*1.25,HrsExtDiu,Devengados,Valor,25,Vr Horas Extr Diurnas
+Hospital San Rafael de Pasto,DiasSusp,Campo,,,Deducidos,Dias,26,Dias Suspension
+Hospital San Rafael de Pasto,DiasTr,Campo,,,Devengados,Dias,27,Dias Trabajados
+Hospital San Rafael de Pasto,Sueldo,Formula,(($SalBase/30)*$DiasTr)-$HrsDescuento,DiasTr,Devengados,Valor,28,Sueldo
+Hospital San Rafael de Pasto,DiasLicNoRem,Campo,,,Devengados,Dias,29,Licencia No remunerada
+Hospital San Rafael de Pasto,HrsNoct,Campo,,,Devengados,Cantidad,30,Horas Nocturnas
+Hospital San Rafael de Pasto,RecNoct,Formula,(($SalBase/$NoHorasLab)*$HrsNoct)*0.35,HrsNoct,Devengados,Valor,31,Recargo Nocturno
+Hospital San Rafael de Pasto,VrHorDomHab,Formula,($SalBase/$NoHorasLab)*$HorDomHab*1.75,HorDomHab,Devengados,Valor,32,Valor dominincal habitual
+Hospital San Rafael de Pasto,VrHrsDom,Formula,($SalBase/$NoHorasLab)*$HrsDom*0.75,HrsDom,Devengados,Valor,33,Vr Horas Dominicales
+Hospital San Rafael de Pasto,ExcTransp,Campo,,,PostDevengados,Valor,34,Excedente Auxilio Transporte
+Hospital San Rafael de Pasto,DevolucionMayorVrDescontado,Campo,,,Devengados,Valor,35,DevolucionMayorValorDescontado
+Hospital San Rafael de Pasto,EmbAlimentos,Campo,,,Deducidos,Valor,36,Embargo Alimentos
+Hospital San Rafael de Pasto,EmbJudicial,Campo,,,Deducidos,Valor,37,Embargo Judicial
+Hospital San Rafael de Pasto,Sindicato,Campo,,,Deducidos,Valor,38,Sindicato
+Hospital San Rafael de Pasto,FondEmplAporte,Campo,,,Deducidos,Valor,39,Aporte Fondo Empleados
+Hospital San Rafael de Pasto,FondEmplPrest,Campo,,,Deducidos,Valor,40,Aporte Prestamo Fondo
+Hospital San Rafael de Pasto,DtoPaseo,Campo,,,Deducidos,Valor,41,Dto Paseo
+Hospital San Rafael de Pasto,PrHos,Campo,,,Deducidos,Valor,42,Prestamo Hospital
+Hospital San Rafael de Pasto,DtoArriendo,Campo,,,Deducidos,Valor,43,Descuento Arriendo
+Hospital San Rafael de Pasto,REAJUSTE7,Campo,,,Devengados,Valor,44,REAJUSTE7
+Hospital San Rafael de Pasto,PrimaExlegal,Formula,return(($TotDevengados+$AuxTransporte)*0.0833),DiasTr,Provisiones Prestaciones,AutoRegistro,45,Prima extralegal
+Hospital San Rafael de Pasto,DtoAlimentacion,Campo,,,Deducidos,Valor,46,Descuento Alimentacion
+Hospital San Rafael de Pasto,HrsDescuento,Campo,,,Devengados,Valor,47,Horas Descuento
+Hospital San Rafael de Pasto,ProvSalud,Formula,if($TotDevengados<$SalMinimo){return(45526);}else{return($TotDevengados*0.085);},DiasTr,ProvisionesSS,AutoRegistro,48,Provision Salud
+Hospital San Rafael de Pasto,ProvPension,Formula,if($TotDevengados<$SalMinimo){return(64272);}else{return($TotDevengados*0.12);},DiasTr,ProvisionesSS,AutoRegistro,49,Provisiones Pension
+Hospital San Rafael de Pasto,ProvRiesgos,Formula,return(($TotDevengados-$VrAccTrab-$VrLicxMatern-$VrVacaciones-$VrIncapacidad-$VrDiasLicNoRem-$VrDiasSusp)*$PorcARP),DiasTr,ProvisionesSS,AutoRegistro,50,Riesgos Profesionales
+Hospital San Rafael de Pasto,Sena,Formula,return(($TotDevengados-$VrAccTrab-$VrLicxMatern-$VrIncapacidad-$VrDiasLicNoRem-$VrDiasSusp)*0.02),DiasTr,Parafiscales,AutoRegistro,51,Sena
+Hospital San Rafael de Pasto,ICBF,Formula,return(($TotDevengados-$VrAccTrab-$VrLicxMatern-$VrIncapacidad-$VrDiasLicNoRem-$VrDiasSusp)*0.03),DiasTr,Parafiscales,AutoRegistro,52,ICBF
+Hospital San Rafael de Pasto,CajaComp,Formula,return(($TotDevengados-$VrAccTrab-$VrLicxMatern-$VrIncapacidad-$VrDiasLicNoRem-$VrDiasSusp)*0.04),DiasTr,Parafiscales,AutoRegistro,53,Caja de compensacion
+Hospital San Rafael de Pasto,Prima,Formula,return(($TotDevengados+$AuxTransporte)*0.0833),DiasTr,Provisiones Prestaciones,AutoRegistro,54,Prima
+Hospital San Rafael de Pasto,ProvCesantias,Formula,return(($TotDevengados+$AuxTransporte)*0.0833),DiasTr,Provisiones Prestaciones,AutoRegistro,55,ProvCesantias
+Hospital San Rafael de Pasto,ProvIntCesant,Formula,return(($TotDevengados+$AuxTransporte)*0.01),DiasTr,Provisiones Prestaciones,AutoRegistro,56,ProvIntCesant
+Hospital San Rafael de Pasto,ProvVacac,Formula,return((($SalBase/30)*$DiasTr)*0.0416666),DiasTr,Provisiones Prestaciones,AutoRegistro,57,Provision Vacaciones
+Hospital San Rafael de Pasto,HrsDom,Campo,,,Devengados,Cantidad,58,Horas dominicales
+Hospital San Rafael de Pasto,HorDomHab,Campo,,,Devengados,Cantidad,59,Horas domi habitual
+Hospital San Rafael de Pasto,DescMayValPag,Campo,,,Deducidos,Valor,60,Descuento Mayor Valor Pagado
+Hospital San Rafael de Pasto,PrimaVacac,Campo,,,PostDevengados,Valor,61,Prima Vacaciones
+Hospital San Rafael de Pasto,ExcVacaciones,Campo,,,PostDevengados,Valor,62,Excedente Vacaciones
+Hospital San Rafael de Pasto,Reajustehordomin,Campo,,,Devengados,Valor,63,Reajueste hora dominical
+Hospital San Rafael de Pasto,reajustehornoct,Campo,,,Devengados,Valor,64,Reajueste hora nocturna
+Hospital San Rafael de Pasto,VrIncapacidadAT,Formula,(($SalBase/30)*$DiasIncapacAT)*0.75,DiasIncapacAT,Devengados,Valor,65,Vr Incapacidad AT
+Hospital San Rafael de Pasto,DiasIncapacAT,Campo,,,Devengados,Cantidad,66,Dias Incapac Acc Tr
+Hospital San Rafael de Pasto,Liquidacion,Campo,,,Deducidos,Valor,67,Liquidacion
+Hospital San Rafael de Pasto,REAJUSTEHOREXDIURNA,Campo,,,Devengados,Valor,68,REAJUSTE HORA EXTRA DIURNA
+Hospital San Rafael de Pasto,ReajusteHorExtDiurFest,Campo,,,Devengados,Valor,69,Reajuste Hora Extra Diurna Festiva
+Hospital San Rafael de Pasto,ReajusteHorExtNoctFest,Campo,,,Devengados,Valor,70,Reajuste Hora Extra Noct Festiva
+Hospital San Rafael de Pasto,ReajusteHorExtNoct,Campo,,,Devengados,Valor,71,Reajuste Hora Extra Nocturna
+Hospital San Rafael de Pasto,DtoCelular,Campo,,,Deducidos,Valor,72,Descuento Celular
+Hospital San Rafael de Pasto,FactorPrestac,Campo,,,PostDevengados,Valor,73,Factor Prestacional
+Hospital San Rafael de Pasto,DtoZapatos,Campo,,,Deducidos,Valor,74,Descuento Zapatos
+Hospital San Rafael de Pasto,Compensacion,Formula,($SalBase/30)*$DiasCompSENA,DiasCompSENA,Devengados,Valor,75,Compensacion
+Hospital San Rafael de Pasto,DiasCompSENA,Campo,,,Devengados,Dias,76,Dias Comp Sena
+Hospital San Rafael de Pasto,ProvRiesgosSENA,Formula,return($TotDevengados*$PorcARP);,DiasCompSENA,ProvisionesSS,AutoRegistro,77,Riesgos Profesionales SENA
+Hospital San Rafael de Pasto,ProvSaludSENA,Formula,return($TotDevengados*0.125);,DiasCompSENA,ProvisionesSS,AutoRegistro,78,Provision Salud SENA
+Hospital San Rafael de Pasto,LicPaternidad,Campo,,,Devengados,Dias,79,Licencia Paternidad
+Hospital San Rafael de Pasto,REAJUSTE,Campo,,,Devengados,Valor,80,REAJUSTE
+Hospital San Rafael de Pasto,AUXTRANSPORTE7,Campo,,,PostDevengados,Valor,81,AUXILIO DE TRANSPORTE7
+Hospital San Rafael de Pasto,SalMinimo,Variable_Fija,535600,,Variables,,82,SalMinimo
+Hospital San Rafael de Pasto,DEVOLUCIONRETENCIONFUENTE,Campo,,,PostDevengados,Valor,83,DEVOLUCION RETENCION EN LA FUENTE
+Hospital San Rafael de Pasto,REAJUESTE6,Campo,,,Devengados,Valor,84,REAJUSTE6
+Hospital San Rafael de Pasto,CUOTASOLIDHAITI,Campo,,,Deducidos,Valor,85,CUOTASOLIDARIDADHAITI
+Hospital San Rafael de Pasto,APORTEVOLUNTPENSION,Campo,,,Deducidos,Valor,86,APORTEVOLUNTARIOPENSION
+Hospital San Rafael de Pasto,DtoAuxTransporte,Campo,,,Deducidos,Valor,87,DescuentoAuxiliodeTransporte
+Hospital San Rafael de Pasto,Boletas,Campo,,,Deducidos,Valor,88,descuento boletas

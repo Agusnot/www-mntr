@@ -1,0 +1,9 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+REQUISA;5;<b> LISTA DE CHEQUEO </b>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;;;;
+REQUISA;6;¿RETIRÓ ARMAS?;ENFERMERIA;1;L;0;0;0;Lista Opciones;0;0;;";No;Si";1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;3;0;;;
+REQUISA;7;¿RETIRÓ SUSTANCIAS PSICOACTIVAS?;ENFERMERIA;1;L;0;0;0;Lista Opciones;0;0;;";No;Si";1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;5;0;;;
+REQUISA;10;<b> OBSERVACIONES </b>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;7;;;;
+REQUISA;9;PERSONA A QUIEN ENTREGA LOS ELEMENTOS RETIRADOS;ENFERMERIA;1;L;0;0;300;Cuadro de Texto;300;0;;;0;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;6;0;;;
+REQUISA;8;¿RETIRÓ DINERO Y/O ELEMENTOS DE VALOR?;ENFERMERIA;1;L;0;0;0;Lista Opciones;0;0;;";No;Si";1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;4;0;;;
+REQUISA;4;OBSERVACIONES;ENFERMERIA;1;L;0;0;0;Area de Texto;650;150;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;8;0;;;
+REQUISA;3;<h3> REQUISA </h3>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;

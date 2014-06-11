@@ -1,0 +1,19 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+CONDUCTA SUICIDA;13;NOTIFICAR A;PACIENTE SEGURO;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;15;;;;
+CONDUCTA SUICIDA;2;FECHA DEL EVENTO;PACIENTE SEGURO;1;C;0;0;10;Fecha;80;0;;;0;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;3;0;;;
+CONDUCTA SUICIDA;3;HORA DEL EVENTO;PACIENTE SEGURO;1;C;0;0;5;Cuadro de Texto;50;0;;;1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;4;0;;;
+CONDUCTA SUICIDA;4;TIPO DE EVENTO;PACIENTE SEGURO;1;C;0;0;0;Lista Opciones;0;0;;";Intento de Suicidio;Suicidio";1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;5;0;;;
+CONDUCTA SUICIDA;5;MECANISMO;PACIENTE SEGURO;1;C;0;0;0;Lista Opciones;0;0;;";Ahogamiento o sumersión;Ahorcamiento, estrangulamiento, sofocación;Defenestración;Exposición a fuego, humo o calor;Intoxicación;Medios no especificados;Objetos cortantes";0;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;6;0;;;
+CONDUCTA SUICIDA;16;PACIENTE SEGURO;PACIENTE SEGURO;1;C;0;0;5;Cuadro de Chequeo;0;0;;;0;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;18;0;;;
+CONDUCTA SUICIDA;11;PRESENCIA DE PACIENTE;PACIENTE SEGURO;1;C;0;0;0;Lista Opciones;0;0;;";No presenciado;Si presenciado";1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;14;0;;;
+CONDUCTA SUICIDA;10;PRESENCIA DE COLABORADOR;PACIENTE SEGURO;1;C;0;0;0;Lista Opciones;0;0;;";No presenciado;Si presenciado";1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;13;0;;;
+CONDUCTA SUICIDA;12;LESIÓN EN REGIÓN;PACIENTE SEGURO;1;C;0;0;0;Lista Opciones;0;0;;";No presenta;Abdomen;Cabeza;Cara;Cuello;Dorso;Miembros Superiores;Miembros Inferiores;Región Perineal;Torax";1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;12;0;;;
+CONDUCTA SUICIDA;9;TIPO DE HABITACIÓN;PACIENTE SEGURO;1;C;0;0;0;Lista Opciones;0;0;;";Compartida;Individual";1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;11;0;;;
+CONDUCTA SUICIDA;8;DIAGNÓSTICO ACTUAL DE INTENTO DE SUICIDIO;PACIENTE SEGURO;1;C;0;0;0;Lista Opciones;0;0;;";No presenta;Si presenta";1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;10;0;;;
+CONDUCTA SUICIDA;6;DESCRIPCION;PACIENTE SEGURO;1;C;0;0;600;Area de Texto;600;150;;;1;;1;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;8;0;;;
+CONDUCTA SUICIDA;7;ANTECEDENTES DE INTENTO DE SUICIDIO;PACIENTE SEGURO;1;C;0;0;0;Lista Opciones;0;0;;";No presenta;Si presenta";1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;9;0;;;
+CONDUCTA SUICIDA;18;<b> DESCRIPCIÓN </b>;PACIENTE SEGURO;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;7;;;;
+CONDUCTA SUICIDA;17;<h3>FORMATO CONDUCTA SUICIDA </h3>;PACIENTE SEGURO;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;
+CONDUCTA SUICIDA;14;JEFE DE ENFERMERIA;PACIENTE SEGURO;1;C;0;0;5;Cuadro de Chequeo;0;0;;;0;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;16;0;;;
+CONDUCTA SUICIDA;15;MEDICO GENERAL;PACIENTE SEGURO;1;C;0;0;5;Cuadro de Chequeo;0;0;;;0;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;17;0;;;
+CONDUCTA SUICIDA;1;SERVICIO;PACIENTE SEGURO;1;C;0;0;0;Lista Opciones;0;0;;";ADICCIONES;CRONICAS MUJERES;CRONICOS HOMBRES;INIMPUTABLES;INTERMEDIOS HOMBRES;INTERMEDIOS MUJERES;JUAN CIUDAD;LARGA ESTANCIA;OBSERVACION;PISO HOMBRES;UCA;UCA JUAN CIUDAD;UCI-P";1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;0;;;

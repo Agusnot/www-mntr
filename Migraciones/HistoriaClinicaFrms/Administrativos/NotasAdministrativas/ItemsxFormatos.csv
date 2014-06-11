@@ -1,0 +1,3 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+NOTAS ADMINISTRATIVAS;1;<h3> NOTAS ADMINISTRATIVAS </h3>;ADMINISTRATIVOS;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;
+NOTAS ADMINISTRATIVAS;2;OBSERVACIONES;ADMINISTRATIVOS;1;L;0;0;0;Area de Texto;650;150;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;0;;;

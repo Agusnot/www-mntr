@@ -1,0 +1,7 @@
+NOTICE:  truncando además la tabla «anios»
+NOTICE:  truncando además la tabla «cierrexperiodos»
+NOTICE:  truncando además la tabla «rutacopias»
+NOTICE:  truncando además la tabla «almacenesppales»
+NOTICE:  truncando además la tabla «comprobantes»
+NOTICE:  truncando además la tabla «estructurapuc»
+NOTICE:  truncando además la tabla «costosfijos»

@@ -1,0 +1,55 @@
+CREATE TABLE histoclinicafrms.tbl00018
+(
+  formato character varying(150) NOT NULL,
+  tipoformato character varying(150) NOT NULL,
+  id_historia integer NOT NULL DEFAULT 0,
+  usuario character varying(150) NOT NULL,
+  cargo character varying(80) NOT NULL,
+  fecha date,
+  hora time without time zone,
+  cedula character varying(15) NOT NULL,
+  ambito character varying(150),
+  unidadhosp character varying(150),
+  numservicio integer,
+  compania character varying(60) NOT NULL,
+  cerrado integer,
+  noliquidacion integer DEFAULT 0,
+  finalidadconsult character varying(5),
+  causaexterna character varying(5),
+  dx1 character varying(6),
+  dx2 character varying(6),
+  dx3 character varying(6),
+  dx4 character varying(6),
+  dx5 character varying(6),
+  tipodx character varying(1),
+  numproced integer,
+  usuarioajuste character varying(30),
+  fechaajuste date,
+  padretipoformato character varying(150),
+  padreformato character varying(150),
+  id_historia_origen integer,
+  cmp00002 character varying(5),
+  cmp00003 character varying(600),
+  cmp00005 text,
+  cmp00007 text,
+  idsvital numeric,
+  CONSTRAINT pkhctbltbl00018 PRIMARY KEY (formato , tipoformato , id_historia , cedula , compania ),
+  CONSTRAINT fkambtbltbl00018 FOREIGN KEY (ambito, compania)
+      REFERENCES salud.ambitos (ambito, compania) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT fkitemsxtbltbl00018 FOREIGN KEY (formato, tipoformato, compania)
+      REFERENCES historiaclinica.formatos (formato, tipoformato, compania) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT fkmedxtbltbl00018 FOREIGN KEY (usuario, cargo, compania)
+      REFERENCES salud.medicos (usuario, cargo, compania) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT fkpabxtbltbl00018 FOREIGN KEY (unidadhosp, compania, ambito)
+      REFERENCES salud.pabellones (pabellon, compania, ambito) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT fktercxtbltbl00018 FOREIGN KEY (cedula, compania)
+      REFERENCES central.terceros (identificacion, compania) MATCH SIMPLE
+      ON UPDATE CASCADE ON DELETE RESTRICT
+)
+WITH (
+  OIDS=FALSE
+)

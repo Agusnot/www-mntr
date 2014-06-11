@@ -1,0 +1,8 @@
+validar 
+
+
+2 antes de insertar el dato despues de eliminar verificar si la cedula se encuentra ya registrada, si se encuentra registrada y no es transito no cargar
+
+3 generar informe usuarios duplicados
+
+4 generar informe de usuarios en transito en otra entidad

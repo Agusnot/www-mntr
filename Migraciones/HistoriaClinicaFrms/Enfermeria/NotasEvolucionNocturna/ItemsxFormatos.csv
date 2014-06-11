@@ -1,0 +1,9 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+NOTAS DE EVOLUCION NOCTURNA;1;<h3> NOTAS NOCTURNAS DE ENFERMERÍA </h3>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;
+NOTAS DE EVOLUCION NOCTURNA;2;<b> SIGNOS VITALES </b>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;;;;
+NOTAS DE EVOLUCION NOCTURNA;3;FRECUENCIA RESPIRATORIA;ENFERMERIA;1;C;0;0;10;Cuadro de Texto;100;0;;;1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;3;0;;;
+NOTAS DE EVOLUCION NOCTURNA;4;FRECUENCIA CARDIACA;ENFERMERIA;1;C;0;0;10;Cuadro de Texto;100;0;;;1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;4;0;;;
+NOTAS DE EVOLUCION NOCTURNA;5;<b> ESTADO </b>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;5;;;;
+NOTAS DE EVOLUCION NOCTURNA;6;ESTADO;ENFERMERIA;1;L;0;0;0;Area de Texto;400;50;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;6;0;;;
+NOTAS DE EVOLUCION NOCTURNA;7;<b> OBSERVACIONES </b>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;7;;;;
+NOTAS DE EVOLUCION NOCTURNA;8;OBSERVACIONES;ENFERMERIA;1;L;0;0;0;Area de Texto;400;50;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;8;0;;;

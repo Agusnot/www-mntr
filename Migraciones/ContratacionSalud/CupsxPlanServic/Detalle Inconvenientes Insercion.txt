@@ -1,0 +1,85 @@
+Tabla ConfProcedimientos
+
+2(85) Registros Duplicados
+
+CUPS
+
+890702
+890701
+
+
+Tabla ConfTransporte
+
+1(81) Registros Duplicados
+
+
+
+
+
+
+
+Tabla ConFactEstancia
+
+
+Errores HTML
+
+	Entidades
+
+	CAFE SALUD MEDICINA PREPAGADA
+
+	COLSEGUROS EPS
+
+	ECOPETROL
+
+	RECLUCION DE MUJERES DE MANIZALES
+
+	SURAMERICANA SALUD
+
+
+
+
+	CUPS
+
+
+	38222
+	38221
+
+
+Errores Migracion
+
+	19 Registros Duplicados
+
+	CUPS
+
+
+
+
+
+
+Tabla AtencionConsExterna
+
+	9(80) Registros Duplicados
+	
+	CUPS
+	890313
+	890402
+	890302
+	890101
+	890702
+	940700
+	890208
+	0
+	890202
+	
+
+	
+	
+
+
+
+
+
+
+
+
+

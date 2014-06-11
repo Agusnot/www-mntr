@@ -1,0 +1,20 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+REFERENCIA;1;<h3> REFERENCIA </h3>;HISTORIA CLINICA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;
+REFERENCIA;8;ESPECIALIDAD DESTINO;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;70;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;8;0;;;
+REFERENCIA;19;RESULTADOS APOYOS;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;100;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;19;0;;;
+REFERENCIA;2;<b> INFORMACIÓN REFERENCIA </b>;HISTORIA CLINICA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;;;;
+REFERENCIA;9;<b> Tipo de referencia </b>;HISTORIA CLINICA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;9;;;;
+REFERENCIA;3;<b> Ciudad a la que se refiere </b>;HISTORIA CLINICA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;3;;;;
+REFERENCIA;10;TIPO DE REFERENCIA;HISTORIA CLINICA;1;L;0;0;0;Lista Opciones;0;0;;";Urgencias;Consulta externa;Consulta prioritaria";1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;10;0;;;
+REFERENCIA;4;CIUDAD REFERENCIA;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;70;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;4;0;;;
+REFERENCIA;11;<b> INFORMACIÓN CLÍNICA RELEVANTE </b>;HISTORIA CLINICA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;11;;;;
+REFERENCIA;5;<b> Institución destino </b>;HISTORIA CLINICA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;5;;;;
+REFERENCIA;12;<b> Resumen Historia Clínica (Incluir: Tratamientos aplicados, tratamiento sugerido a la institución receptora y motivo de la referencia)</b>;HISTORIA CLINICA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;12;;;;
+REFERENCIA;6;INSTITUCION DESTINO;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;70;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;6;0;;;
+REFERENCIA;13;RESUMEN HISTORIA CLINICA;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;100;;RESUMEN HISTORIA CLINICA;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;13;0;;;
+REFERENCIA;7;<b> Especialidad destino </b>;HISTORIA CLINICA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;7;;;;
+REFERENCIA;14;<b> Hallazgos físicos de importancia </b>;HISTORIA CLINICA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;14;;;;
+REFERENCIA;15;HALLAZGOS FISICOS;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;100;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;15;0;;;
+REFERENCIA;16;<b>Hallazgos mentales de importancia</b>;HISTORIA CLINICA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;16;;;;
+REFERENCIA;17;HALLAZGOS MENTALES;HISTORIA CLINICA;1;L;0;0;0;Area de Texto;650;100;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;17;0;;;
+REFERENCIA;18;<b> Fechas y resultados de Apoyos Diagnósticos de importancia </b>;HISTORIA CLINICA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;18;;;;

@@ -1,0 +1,9 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+CONVULSIONES;1;<b> CONVULSIONES </b>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AN;2;;;;
+CONVULSIONES;2;HORA;ENFERMERIA;1;C;0;0;5;Cuadro de Texto;50;0;;;1;;0;0;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;0;;;
+CONVULSIONES;3;DURACIÓN;ENFERMERIA;1;C;0;0;600;Cuadro de Texto;650;0;;;1;;0;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;3;0;;;
+CONVULSIONES;4;"<b> CARACTER&Iacute;STICAS </b>";ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;4;;;;
+CONVULSIONES;5;CARACTERISTICAS;ENFERMERIA;1;L;0;0;0;Area de Texto;400;150;;;1;;1;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;5;0;;;
+CONVULSIONES;6;<b> OBSERVACIONES </b>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;6;;;;
+CONVULSIONES;7;OBSERVACIONES;ENFERMERIA;1;L;0;0;0;Area de Texto;400;150;;;1;;1;1;0;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;7;0;;;
+CONVULSIONES;8;<h3>CONVULSIONES</h3>;ENFERMERIA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;

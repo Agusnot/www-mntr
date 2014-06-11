@@ -1,0 +1,10 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+NOTAS DE EVOLUCION;1;<h3> NOTAS EVOLUCIÓN DE ENFERMERÍA</h3>;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;
+NOTAS DE EVOLUCION;2;CONDICIONES FÍSICAS Y/O MENTALES;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;;;;
+NOTAS DE EVOLUCION;6;OBSERVACIONES Y/O PENDIENTES;ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;6;;;;
+NOTAS DE EVOLUCION;8;PLAN DE CUIDADOS (Diligenciar Jefe de Enfermería);ENFERMERIA;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;8;;;;
+NOTAS DE EVOLUCION;3;CONDICICIONES FISICAS MENTALES;ENFERMERIA;1;L;0;0;0;Area de Texto;400;50;;;1;EVOLUCION;1;1;;;;;CLINICA SAN JUAN DE DIOS;ENFERMERIA;CONDICICIONES FISICAS MENTALES;0;;;;AC;3;0;;;
+NOTAS DE EVOLUCION;5;EVOLUCION;ENFERMERIA;1;L;0;0;0;Area de Texto;400;50;;;1;EVOLUCION;1;1;;;;;CLINICA SAN JUAN DE DIOS;ENFERMERIA;EVOLUCION;0;;;;AC;5;0;;;
+NOTAS DE EVOLUCION;7;OBSERVACIONES Y PENDIENTES;ENFERMERIA;1;L;0;0;0;Area de Texto;400;50;;;1;;1;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;7;0;;;
+NOTAS DE EVOLUCION;9;PLAN DE CUIDADOS;ENFERMERIA;1;L;0;0;0;Area de Texto;400;50;;;0;EVOLUCION;1;1;;;;;CLINICA SAN JUAN DE DIOS;ENFERMERIA;PLAN DE CUIDADOS;0;;;;AC;9;0;;;
+NOTAS DE EVOLUCION;4;EVOLUCIÓN (Higiene, presentación personal,arreglo habitación, alimentación, aceptación tratamiento, integración, participación actividades, visitas, cumplimiento normal, relación equipo terapéutico);ENFERMERIA;1;;;;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;4;;;;

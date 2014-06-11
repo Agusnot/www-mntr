@@ -1,0 +1,13 @@
+<?
+$conex = pg_connect("host=localhost dbname=sistema user=postgres password=Server*1982") or die ('no establecida');
+$cons = "Select COdigo,NumServicio,Autoid,NoFactura
+from Facturacion.DetalleLiquidacion,Facturacion.Liquidacion,Consumo.CodProductos 
+Where Tipo = 'Medicamentos' and 
+DetalleLiquidacion.Noliquidacion = Liquidacion.NoLiquidacion
+and CodProductos.Codigo1 = Detalleliquidacion.Codigo";eho $cons;
+$res = pg_query($cons);
+while($fila = pg_fetch_row($res))
+{
+  echo "$fila[0]---$fila[1]---$fila[2]---$fila[3]<br>";
+}
+?>

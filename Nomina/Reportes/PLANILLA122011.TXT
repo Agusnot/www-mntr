@@ -1,0 +1,103 @@
+0200001CC12990426        0100  52001ACOSTA              RUALES                        ANGEL               MIRO                          
+0200002CC12745514        0100  52001ANDRADE             GONZALES                      JOSE                LUIS                          
+0200003CC12968485        0100  52001BARCO               MORA                          JUVENCIO                                          
+0200004CC59825220        0100  52001BARON               ROSAS                         MARIA               EUGENIA                       
+0200005CC36758162        0100  52001BASTIDAS            GRANJA                        MARIA               INES                          
+0200006CC30736898        0100  52001BECERRA             BURBANO                       ANA                 LUCIA                         
+0200007CC16764401        0100  52001BEDOYA              LEDESMA                       HAROLD              JIMMY                         
+0200008CC98400249        0100  52001BELALCAZAR          RIVERA                        EDISON                                            
+0200009CC27156397        0100  52001BENAVIDES           LOPEZ                         ROSA                LINA                          
+0200010CC87066282        0100  52001BOLAÑOS            ORTIZ                         FEDERICO            ANDRES                        
+0200011CC1085257374      0100  52001BOTINA              GUERRERO                      KAROL               DAYANA                        
+0200012CC30736743        0100  52001BRAVO               CORDOBA                       CLAUDIA             ELIZABETH                     
+0200013CC27199404        0100  52001BRAVO               GUERRERO                      FLOR                STELLA                        
+0200014CC12961550        0100  52001BURBANO                                           IDELFONSO                                         
+0200015CC1086358530      0100  52001BURBANO             OBANDO                        ARLEY               ADRIAN                        
+0200016CC13072926        0100  52001BUSTOS              MOSQUERA                      JERSON              GIOVANNY                      
+0200017CC87068084-8      0100  52001CABRERA             LEON                          DAVID               ARTURO                        
+0200018CC36758499        0100  52001CAICEDO             PEREZ                         MARIA               FERNANDA                      
+0200019CC30712117        0100  52001CALVACHE            BASTIDAS                      ROSALBA                                           
+0200020CC30713145        0100  52001CALVACHE            GARCES                        LILIANA             NANCY                         
+0200021CC59818858        0100  52001CANO                CASTILLO                      CARMEN              ALICIA                        
+0200022CC12995671        0100  52001CARDENAS            HERRERA                       JORGE               ALBERTO                       
+0200023CC30743813        0100  52001CASTRO              SANTACRUZ                     RITHA               LILIANA                       
+0200024CC27082394        0100  52001CORDOBA             JURADO                        CARMEN              MIREYA                        
+0200025CC30742649        0100  52001CHAVES              UNIGARRO                      JULIA               STHER                         
+0200026CC30721215        0100  52001DIAZ                AREVALO                       LIGIA               DEL CARMEN                    
+0200027CC87064995        0100  52001DIAZ                MALLAMA                       WILSON              ALBEIRO                       
+0200028CC12979601        0100  52001DIAZ                NARVAEZ                       LUIS                ORLANDO                       
+0200029CC27298396        0100  52001ERASO               LASSO                         LEIDY               CRISTINA                      
+0200030CC87570991        0100  52001ESPINOZA            SUAREZ                        JUAN                ROBERTO                       
+0200031CC12956388        0100  52001FAJARDO             MUÑOZ                        OMAR                ARJEMIRO                      
+0200032CC36952245        0100  52001FIGUEROA            LEGARDA                       ANA                 LUCIA                         
+0200033CC59819298        0100  52001FIGUEROA            MARIN                         MARTHA              BEATRIZ                       
+0200034CC30744182        0100  52001GALVIS              ZAMBRANO                      NORA                ISABEL                        
+0200035CC98384146        0100  52001GAMBOA              BENAVIDES                     RENE                GIOVANY                       
+0200036CC40045108        0100  52001GARCIA              BOSYGA                        ELIANA              PATRICIA                      
+0200037CC30736034        0100  52001GARCIA              BURBANO                       PATRICIA            LOURDES                       
+0200038CC5206409         0100  52001GARCIA              SANCHEZ                       EVER                GIOVANNI                      
+0200039CC98379225        0100  52001GELPUD              CORDOBA                       LUIS                FERNANDO                      
+0200040CC30733059        0100  52001GOMEZ               LARRAÑAGA                    SONIA               AMANDA                        
+0200041CC30736063        0100  52001GOMEZ               LUNA                          SONIA               RUBY                          
+0200042CC1084224529      0000  52001GOMEZ               VIVEROS                       CARLOS              ALFREDO                       
+0200043CC30729614        0100  52001GUARANGUAY          CHALAPUD                      MARIA               OFELIA                        
+0200044CC37085638        0100  52001GUZMAN              NARVAEZ                       SANDRA              YAMILE                        
+0200045CC45688397        0100  52001HERAZO              DILSON                        MARIA               ISABEL                        
+0200046CC27397037        0100  52001HERNANDEZ           NARVAEZ                       EDITH               DE LORUDES                    
+0200047CC1085244352      0100  52001IDARRAGA            NARVAEZ                       LILIA               ESTELA                        
+0200048CC30720724        0200  52001IDROBO              ZAPATA                        GLORIA              DEL CARMEN                    
+0200049CC5207134         0100  52001JOJOA               RIASCOS                       VICTOR              EDWIN                         
+0200050CC5348232         0100  52001JUAGINOY            RUALES                        GIRALDO             ALFREDO                       
+0200051CC12976169-8      0100  52001JURADO              ROSERO                        FERNANDO            ALFONSO                       
+0200052CC12958586        0100  52001LOPEZ                                             LUIS                ALFREDO                       
+0200053CC13070352        0100  52001LOPEZ               PEREZ                         MIGUEL              FERNANDO                      
+0200054CC30729043        0100  52001LOPEZ               RIOFRIO                       MARIA               LIGIA                         
+0200055CC12752747        0100  52001LLORENTE            QUENAN                        EDUARDO             ANDRES                        
+0200056CC87070408        0100  52001MADROÑERO          AGREDA                        DIEGO               FERNANDO                      
+0200057CC87492088        0100  52001MADROÑERO          MORENO                        WILSON              URIEL                         
+0200058CC1032400978      0100  52001MARTINEZ            CALDERON                      WILSON              EDUARDO                       
+0200059CC12967100        0100  52001MASMUTA             LUIS                          PARMENIDES                                        
+0200060CC59827915        0100  52001MELO                VIVEROS                       AMANDA              LUCY                          
+0200061CC19154141        0100  52001MESIAS              MENDEZ                        JORGE               IGNACIO                       
+0200062CC98395025        0100  52001MIRAMA              DELGADO                       JOSE                FRANCISCO                     
+0200063CC93390904        0100  52001MOLINA              MORENO                        OSCAR               HELDKLEE                      
+0200064CC12957742        0100  52001MONCAYO             SANTANDER                     LUIS                CARLOS                        
+0200065CC30725357        0100  52001MUÑOZ              CHAVES                        GLORIA              DEL CARMEN                    
+0200066CC27275171        0100  52001MUÑOZ              DELGADO                       BERTHA              NUBIA                         
+0200067CC15815809        0100  52001MUÑOZ              MENESES                       JIMMY               JAIR                          
+0200068CC30732262        0100  52001OBANDO              PARRA                         NHORA               LUCIREY                       
+0200069CC98391403        0100  52001OJEDA               ARTEAGA                       JHON                WILMER                        
+0200070CC94543440        0100  52001ORDOÑEZ            BASTIDAS                      EDGAR               ANDRES                        
+0200071CC12967886        0100  52001ORTEGA              MENA                          LUIS                EDUARDO                       
+0200072CC98387560        0100  52001ORTEGA              PANTOJA                       JHONER              IGNACIO                       
+0200073CC12753498        0100  52001ORTIZ               RIASCOS                       MARIO               ANDRES                        
+0200074CC32742858        0100  52001PAREJO              VASQUEZ                       CLAUDIA             ESTHER                        
+0200075CC30712212        0100  52001PASUY               BENAVIDES                     MARIA               DEL SOCORRO                   
+0200076CC98387701        0100  52001PEREZ               LOPEZ                         HECTOR              MAURICIO                      
+0200077CC19341943        0100  52001RAMIREZ             MONTOYA                       NELSON              ANTONIO                       
+0200078CC98215635        0100  52001RAMOS               HERNANDEZ                     OSCAR               ARNULFO                       
+0200079CC52267617        0100  52001RECALDE             PALACIOS                      MONICA              XIMENA                        
+0200080CC27088637        0100  52001RIASCOS             SANTACRUZ                     DORIS               DEL SOCORRO                   
+0200081CC59833299        0100  52001RICAURTE            SOLARTE                       JANETH              JACKELINE                     
+0200082CC12749668        0100  52001RODRIGUEZ           GUASMAYAN                     RICARDO             ANDRES                        
+0200083CC12973706        0100  52001ROSERO                                            MARIO               ENRIQUE                       
+0200084CC34538914        0100  52001RUALES              UNIGARRO                      MARIELA             DEL SOCORRO                   
+0200085CC30722767        0100  52001SALAZAR             IGUA                          MARIA               DEL CARMEN                    
+0200086CC36759459        0100  52001SALAZAR             INSUASTY                      LUZ                 ANGELA                        
+0200087CC30718452        0100  52001SALAZAR             TOBAR                         OLGA                CECILIA                       
+0200088CC59821695        0100  52001SANCHEZ             RODRIGUEZ                     OLGA                LUCIA                         
+0200089CC12990830        0100  52001TAPIA               GUERRERO                      GERMAN              GUSTAVO                       
+0200090CC59311580        0100  52001TARAPUES            RODRIGUEZ                     MARLENY             ROCIO                         
+0200091CC27142738        0100  52001TIMARAN             CHAVES                        MARTA               ALICIA                        
+0200092CC87064572        0100  52001TOVAR               TRUJILLO                      JAIR                HERNAN                        
+0200093CC30721762        0100  52001TRUJILLO            DE DIAZ                       BERTHA              YOLANDA                       
+0200094CC87062591        0100  52001URBANO              URBANO                        MAURO                                             
+0200095CC59831852        0100  52001VALENCIA            MUÑOZ                        LUCELLY                                           
+0200096CC30716626        0100  52001VALLEJO             RIVERA                        ROSALBA                                           
+0200097CC36993572        0100  52001VILLARREAL          CHAVES                        ODILA               MARIELA                       
+0200098CC12985362-1      0100  52001VILLOTA             ROSERO                        LUIS                GILBERTO                      
+0200099CC98397729        0100  52001VITERI              GOMEZ                         GUIDO               RENE                          
+0200100CC13069037        0000  52001YANDUN              BASTIDAS                      JESUS               ALEXANDER                     
+0200101CC13005648        0100  52001YELA                DELGADO                       JOSE                FRANCISCO                     
+0200102CC12751859        0100  52001YELA                ESTACIO                       JAIRO               ANDRES                        
+0200103CC27537840        0100  52001YELA                MEJIA                         ILIA                DEL ROSARIO                   

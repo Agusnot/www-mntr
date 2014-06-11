@@ -1,0 +1,38 @@
+-- Table: consumo.saldosinicialesxanio
+
+-- DROP TABLE consumo.saldosinicialesxanio;
+
+CREATE TABLE consumo.saldosinicialesxanio
+(
+  compania character varying(60) NOT NULL,
+  almacenppal character varying(30) NOT NULL,
+  autoid integer NOT NULL DEFAULT 0,
+  anio integer NOT NULL DEFAULT 0,
+  cantidad double precision,
+  vrunidad double precision,
+  vrtotal double precision,
+  CONSTRAINT "PkConsSaldosInic" PRIMARY KEY (compania , almacenppal , autoid , anio )
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE consumo.saldosinicialesxanio
+  OWNER TO postgres;
+
+-- Index: consumo."AlmacenPpal6"
+
+-- DROP INDEX consumo."AlmacenPpal6";
+
+CREATE INDEX "AlmacenPpal6"
+  ON consumo.saldosinicialesxanio
+  USING btree
+  (almacenppal COLLATE pg_catalog."default" );
+
+-- Index: consumo."AutoId2"
+
+-- DROP INDEX consumo."AutoId2";
+
+CREATE INDEX "AutoId2"
+  ON consumo.saldosinicialesxanio
+  USING btree
+  (autoid );

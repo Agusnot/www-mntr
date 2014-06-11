@@ -1,0 +1,92 @@
+<?php
+	if($DatNameSID){session_name("$DatNameSID");}
+	session_start();
+	include("Funciones.php");
+	global $DiasTr;
+	//$DiasTr=25;
+	if($Iniciar)
+	{
+		$cons1="select salariomin from nomina.minimo where ano=$Anio";
+		$res1=ExQuery($cons1);
+		$fila1=ExFetch($res1);
+		$Salario=$fila1[0];
+		//echo $Salario;
+		$cons="select terceros.identificacion,diastr,salario 
+from central.terceros,nomina.diastrab,nomina.salarios 
+where terceros.compania='$Compania[0]' 
+and terceros.compania=diastrab.compania 
+and terceros.compania=salarios.compania
+and terceros.identificacion=diastrab.identificacion 
+and terceros.identificacion=salarios.identificacion
+and tipo='Empleado' 
+and diastrab.mestr='$Mes'
+and diastrab.anio='$Anio'
+and diastrab.anio=salarios.anio";
+//		echo $cons;
+		$res=ExQuery($cons);
+		while($fila=Exfetch($res))
+		{
+			$Empleados[$fila[0]]=array($fila[0],$fila[1],$fila[2]);
+		}
+		foreach($Empleados as $Auto)
+		{
+			$Identificacion=$Auto[0];
+			$DiasTr=$Auto[1];
+			$Salario=$Auto[2];
+			$Sueldo=($Salario/30)*$DiasTr;
+			$cons2="insert into nomina.nomina(compania,identificacion,mes,concepto,valor,movimiento,anio,arrastracon,usuario) values ('$Compania[0]','$Identificacion','$Mes','Sueldo','$Sueldo','Devengado','$Anio','DiasTr','$usuario[1]')";
+			$res2=ExQuery($cons2);
+		}
+	}
+?>
+<html>
+<head>
+<meta http-equiv="Content-
+Type" content="text/html; charset=utf-8" />
+<script language="javascript" src="/Funciones.js"></script>
+</head>
+<body>
+<table BORDER=1  style='font : normal normal small-caps 12px Tahoma;' border="1" bordercolor="#e5e5e5" cellpadding="4" align="center">
+<tr>
+	<td colspan="4" bgcolor="#666699" style="color:white" align="center">LIQUIDAR MES</td>
+</tr>
+<form name="FORMA" method="post">
+<tr>
+	<td bgcolor="#e5e5e5" style="font-weight:bold">AÑO</td>
+    <td><select name="Anio" onChange="FORMA.submit();" >
+            <option ></option>
+                    <?
+                    $cons = "select ano from nomina.minimo";
+                    $resultado = ExQuery($cons);
+                    while ($fila = ExFetch($resultado))
+                    {                        
+						 if($fila[0]==$Anio)
+						 {
+							 echo "<option value='$fila[0]' selected>$fila[0]</option>"; 
+						 }
+						 else{echo "<option value='$fila[0]'>$fila[0]</option>";}						 
+                    }
+				?>
+            </select></td>
+    <td  bgcolor="#e5e5e5" style="font-weight:bold">MES</td>
+    <td><select name="Mes" onChange="FORMA.submit();" >
+            <option ></option>
+                    <?
+                    $cons = "select numero,mes from central.meses";
+                    $resultado = ExQuery($cons);
+                    while ($fila = ExFetch($resultado))
+                    {                        
+						 if($fila[0]==$Mes)
+						 {
+							 echo "<option value='$fila[0]' selected>$fila[1]</option>"; 
+						 }
+						 else{echo "<option value='$fila[0]'>$fila[1]</option>";}						 
+                    }
+				?>
+            </select></td>
+</tr>
+</table>
+<center><input type="submit" name="Iniciar" value="INICIAR" /></center>
+</form>
+</body>
+</html>

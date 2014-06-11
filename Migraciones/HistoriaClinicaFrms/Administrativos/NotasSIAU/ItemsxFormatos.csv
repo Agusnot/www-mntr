@@ -1,0 +1,6 @@
+formato;id_item;item;tipoformato;pantalla;tipodato;liminf;limsup;longitud;tipocontrol;ancho;alto;defecto;parametro;obligatorio;traerde;lineasola;cierrafila;titulo;imagen;tip;mensaje;compania;tftraerde;campotraerde;subformato;fechaconsul;finalidad;causaext;estado;orden;formatoxml;tagxml;etiqxml;cargoxitem
+NOTAS SIAU;1;<h3> NOTAS SIAU </h3>;ADMINISTRATIVOS;1;;0;0;;;;;;;;;;;1;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;1;;;;
+NOTAS SIAU;2;FECHA;ADMINISTRATIVOS;1;C;0;0;10;Fecha;80;0;;;1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;2;0;;;
+NOTAS SIAU;3;FOLIO;ADMINISTRATIVOS;1;C;0;0;255;Cuadro de Texto;500;0;;;1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;3;0;;;
+NOTAS SIAU;4;TIPO;ADMINISTRATIVOS;1;L;0;0;0;Lista Opciones;0;0;;";Remision;Tutela;Carta;Oficio;Consentimiento infomado;Otro";1;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;4;0;;;
+NOTAS SIAU;5;¿CUAL?;ADMINISTRATIVOS;1;L;0;0;255;Cuadro de Texto;500;0;;;0;;0;1;;;;;CLINICA SAN JUAN DE DIOS;;;0;;;;AC;5;0;;;

@@ -1,0 +1,1 @@
+copy esquema.tabla from '/Predial/prediosultaniop.csv' USING DELIMITERS ',' WITH NULL AS 'NULL'
